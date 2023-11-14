@@ -1,4 +1,4 @@
-# Mapas Culturais Base Project
+# Mapas Culturais Floresta Ativista
 
 A ideia desse projeto é facilitar o deploy da plataforma Mapas Culturais e ser um repositório aglutinador das partes do sistema, viabilizando um alto controle das versões de cada uma das peças do sistema (plugins, tema, core do Mapas Culturais, PostgreSQL/PostGIS, redis etc). 
 
