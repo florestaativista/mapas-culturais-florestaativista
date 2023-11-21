@@ -6,6 +6,6 @@ cd $DIR
 
 NAME=mapas-base
 
-docker exec -w /var/www/src -i $NAME bash -c "pnpm install --recursive && pnpm run watch"
+docker-compose exec -w /var/www/src mapas bash -c "pnpm install --recursive && pnpm run watch"
 
 cd $CDIR
