@@ -67,9 +67,10 @@ $home-register: #002842;
     .mc-header-menu{
         li{
             a{
+                text-transform: uppercase;
                 .label{
                     border: 1px solid #000;
-                    padding: 1px;    
+                    padding: 1px;
                 }
             }  
         }

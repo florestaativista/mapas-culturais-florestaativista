@@ -3,6 +3,8 @@ $_ENV['APP_MODE'] = 'development';
 $__process_assets = false;
 
 return [
+    'themes.active' => 'FlorestaAtivista',
+    
     'app.verifiedSealsIds' => '1',
     'cep.token' => '',
     
