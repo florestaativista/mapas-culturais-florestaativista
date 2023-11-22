@@ -3,6 +3,11 @@ FROM hacklab/mapasculturais:7.1.1
 COPY themes /var/www/src/themes
 COPY plugins /var/www/src/plugins
 
+COPY themes/FlorestaAtivista/overrides/space-types.php /var/www/src/conf/space-types.php
+COPY themes/FlorestaAtivista/overrides/project-types.php /var/www/src/conf/project-types.php
+COPY themes/FlorestaAtivista/overrides/opportunity-types.php /var/www/src/conf/opportunity-types.php
+COPY themes/FlorestaAtivista/overrides/taxonomies.php /var/www/src/conf/taxonomies.php
+
 WORKDIR /var/www/src
 RUN pnpm install --recursive && pnpm run build 
 WORKDIR /var/www
