@@ -62,6 +62,8 @@ $home-register: #002842;
 // $shadow-lv-1-up: 0px -4px 8px rgba(0, 0, 0, 0.16);
 
 @import '../../../BaseV2/assets-src/sass/theme-BaseV2';
+@import '0.settings/typography';
+
 
 .main-header{
     .mc-header-logo{
@@ -84,8 +86,7 @@ $home-register: #002842;
         margin-right: 3rem;
     }
 }
-/* Esconde divs oportunidades e destaques */
-div.home-opportunities,
+/* Esconde div  destaques */
 div.home-feature {
     display: none;
 }
@@ -99,9 +100,20 @@ div.home-feature {
             .home-header__title{
                 text-transform: uppercase;
                 color: #FF5FDB;
+                
             }
         }
     }    
+}
+
+.home-opportunities{
+    background-color: #FF5FDB;
+    .title{
+        text-transform: uppercase;
+    }
+    .description{
+        font-weight: bold;
+    }
 }
 
 .home-entities{
@@ -153,6 +165,15 @@ div.home-feature {
     .home-register__content{
         color: #000;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        img{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 386px;
+            width: 100%;
+            margin-bottom: 3rem;
+        }
         .home-register__content--title{
             text-transform: uppercase;
         }
