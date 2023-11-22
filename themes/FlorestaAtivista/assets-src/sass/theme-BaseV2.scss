@@ -86,21 +86,138 @@ $home-register: #002842;
 }
 
 div.home-opportunities,
-.home-opportunities__header,
-.home-opportunities__content {
+div.home-feature {
     display: none;
+}
+
+.home-header{
+    .home-header__content{
+        .home-header__main{
+            .home-header__title{
+                text-transform: uppercase;
+                color: #FF5FDB;
+            }
+        }
+    }    
 }
 
 .home-entities{
     .home-entities__content{
+        .home-entities__content--header{
+            .title{
+                text-transform: uppercase;
+            }
+            .description{
+                font-weight: bold;
+            }
+        }
         .home-entities__content--cards{
             .card{
-                border: 1px solid #000;    
+                border: 1px solid #000;
+                .card__left--content{
+                    .card__left--content-icon{
+                        background-color: #fff;
+                        svg{
+                            color:#000;
+                        }
+                    }
+                    .title{
+                        display: none;
+                    }    
+                }
+                .button--icon.button--sm{
+                    color: #000;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }    
             }
         }
     }
 }
 
+.home-register{
+    border-top: solid 3px #000;
+
+    .home-register__background{
+        .home-register__background--img{
+            background-image: none;
+        }
+        .home-register__background--mask{
+            background-color: #d5fffd;
+            mix-blend-mode: initial;
+        }
+    }
+    .home-register__content{
+        color: #000;
+        text-align: center;
+        .home-register__content--title{
+            text-transform: uppercase;
+        }
+        .home-register__content--description{
+            font-weight: bold;
+        }
+        a{
+            justify-content: center;
+            max-width: 18rem;
+            border-radius: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 3px;
+            color: #000;
+            text-transform: uppercase;
+            border: 2px solid #000;
+            margin-top: 20px;
+        }
+    }
+}
+
+.home-map{
+    margin-top: -80px;
+    border-top: 3px solid #000;
+    .home-map__header{
+        .title{
+            text-transform: uppercase;
+        }
+        .description{
+            font-weight: bold;
+        }    
+    }
+}
+
+.home-developers{
+    background-color: #c8ffe0;
+    .home-developers__content{
+        .dev-icon{
+            height: 60px;
+            width: 60px;
+            svg{
+                display: none;
+            }
+        }
+        .home-developers__content--title{
+            text-transform: uppercase;
+        }
+        .home-developers__content--description{
+            font-weight: bold;
+        }
+        .home-developers__content--link{
+            display: none;
+        }
+    }
+}
+
+.main-footer{
+    .main-footer__content{
+        .main-footer__content--links{
+            ul{
+                :first-child{
+                    color: #000;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
 
 .lgpd-document {
     border-bottom: 1px solid $black;
