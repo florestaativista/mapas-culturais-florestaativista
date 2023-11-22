@@ -84,7 +84,7 @@ $home-register: #002842;
         margin-right: 3rem;
     }
 }
-
+/* Esconde divs oportunidades e destaques */
 div.home-opportunities,
 div.home-feature {
     display: none;
@@ -92,6 +92,9 @@ div.home-feature {
 
 .home-header{
     .home-header__content{
+        &::before{
+            background: 0;
+        }
         .home-header__main{
             .home-header__title{
                 text-transform: uppercase;
