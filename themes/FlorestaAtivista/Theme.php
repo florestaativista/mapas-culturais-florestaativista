@@ -15,7 +15,9 @@ class Theme extends \MapasCulturais\Themes\BaseV2\Theme {
         parent::_init();
 
         $app = App::i();
-
+        $app->hook('mapasculturais.body:after', function() use ($app) {
+            $this->part('theme-css');
+        });
          // Manifest do five icon
         $app->hook('GET(site.webmanifest)', function() use ($app) {
             /** @var \MapasCulturais\Controller $this */

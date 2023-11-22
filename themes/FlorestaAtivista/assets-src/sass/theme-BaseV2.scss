@@ -64,6 +64,10 @@ $home-register: #002842;
 @import '../../../BaseV2/assets-src/sass/theme-BaseV2';
 
 .main-header{
+    .mc-header-logo{
+        max-width: 9.5rem;
+        margin-left: 2rem; 
+    }
     .mc-header-menu{
         li{
             a{
@@ -71,13 +75,19 @@ $home-register: #002842;
                 .label{
                     border: 1px solid #000;
                     padding: 1px;
+                    background-color: #fff;
                 }
             }  
         }
     }
+    .main-header__buttons{
+        margin-right: 3rem;
+    }
 }
 
-.home-opportunities__header, .home-opportunities__content {
+div.home-opportunities,
+.home-opportunities__header,
+.home-opportunities__content {
     display: none;
 }
 
