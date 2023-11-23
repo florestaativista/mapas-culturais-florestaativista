@@ -78,6 +78,7 @@ $home-register: #002842;
                     border: 1px solid #000;
                     padding: 1px;
                     background-color: #fff;
+                    font-family: 'Degular Display';
                 }
             }  
         }
@@ -97,10 +98,15 @@ div.home-feature {
             background: 0;
         }
         .home-header__main{
+            max-width: 22rem;
+
             .home-header__title{
                 text-transform: uppercase;
                 color: #FF5FDB;
-                
+                font-family: 'Degular Display';
+            }
+            .home-header__description{
+                font-family: 'Space Grotesk';    
             }
         }
     }    
@@ -110,9 +116,11 @@ div.home-feature {
     background-color: #FF5FDB;
     .title{
         text-transform: uppercase;
+        font-family: 'Degular Display';
     }
     .description{
         font-weight: bold;
+        font-family: 'Space Grotesk';
     }
 }
 
@@ -121,9 +129,12 @@ div.home-feature {
         .home-entities__content--header{
             .title{
                 text-transform: uppercase;
+                font-family: 'Degular Display';
             }
             .description{
                 font-weight: bold;
+                font-family: 'Space Grotesk';
+
             }
         }
         .home-entities__content--cards{
@@ -140,10 +151,16 @@ div.home-feature {
                         display: none;
                     }    
                 }
+                .card__right{
+                    p{
+                        font-family: 'Space Grotesk';  
+                    }
+                }
                 .button--icon.button--sm{
                     color: #000;
                     text-transform: uppercase;
                     font-weight: bold;
+                    font-family: 'Degular Display';
                 }    
             }
         }
@@ -176,13 +193,15 @@ div.home-feature {
         }
         .home-register__content--title{
             text-transform: uppercase;
+            font-family: 'Degular Display';
         }
         .home-register__content--description{
             font-weight: bold;
+            font-family: 'Space Grotesk';  
         }
         a{
             justify-content: center;
-            max-width: 18rem;
+            max-width: 16rem;
             border-radius: 50px;
             margin-left: auto;
             margin-right: auto;
@@ -191,6 +210,10 @@ div.home-feature {
             text-transform: uppercase;
             border: 2px solid #000;
             margin-top: 20px;
+            font-family: 'Degular Display';
+            svg{
+                font-size: 1.3rem;
+            }
         }
     }
 }
@@ -201,9 +224,12 @@ div.home-feature {
     .home-map__header{
         .title{
             text-transform: uppercase;
+            font-family: 'Degular Display';
         }
         .description{
             font-weight: bold;
+            font-family: 'Space Grotesk';  
+
         }    
     }
 }
@@ -220,9 +246,13 @@ div.home-feature {
         }
         .home-developers__content--title{
             text-transform: uppercase;
+            font-family: 'Degular Display';
+
         }
         .home-developers__content--description{
             font-weight: bold;
+            font-family: 'Space Grotesk';  
+
         }
         .home-developers__content--link{
             display: none;
@@ -237,6 +267,8 @@ div.home-feature {
                 :first-child{
                     color: #000;
                     text-transform: uppercase;
+                    font-family: 'Degular Display';
+
                 }
             }
         }
