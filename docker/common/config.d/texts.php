@@ -12,8 +12,8 @@ return [
     "text:home-entities.agents" => i::__("Aqui você pode encontrar pessoas com interesse e atuação nas áreas de arte, cultura, comunicação e ativismos. É uma rede de pessoas envolvidas na cena cultural e ativista da sua região. Você também pode realizar o seu cadastro, bem como de seus coletivos, bandas, instituições e empresas das quais faça parte."),
     "text:home-entities.projects" => i::__("Este é o local onde você pode encontrar leis de fomento, mostras, convocatórias e editais criados, além de diversas iniciativas cadastradas pelos usuários da plataforma."),
     "text:home-feature.description" => i::__("Confira os últimos destaques de cada uma das áreas."),
-    "text:home-register.title" => i::__("Faça seu cadastro e faça parte da Floresta Ativista! Colabore com a plataforma livre, colaborativa e interativa de mapeamento do cenário cultural e ativista."),
-    "text:home-register.description" => i::__("Contribua com a plataforma livre e interativa de mapeamento do cenário cultural e instrumento de governança digital no aprimoramento da gestão pública, dos mecanismos de participação e da democratização do acesso às políticas culturais promovidas na cidade."),
+    "text:home-register.title" => i::__("Faça seu cadastro e faça parte da Floresta Ativista!"),
+    "text:home-register.description" => i::__("Colabore com a plataforma livre, colaborativa e interativa de mapeamento do cenário cultural e ativista."),
     'text:home-developers.description' => 'Alô desenvolvedores! Além disso, Floresta Ativista é um software livre, criado em parceria entre a hacklab/, o Fora do Eixo e a Mídia NINJA e coletivos que investem na plataforma. Você pode contribuir para o seu desenvolvimento através do GitHub',
     "text:home-map.description" => i::__("Os agentes, os espaços e os eventos cadastrados contam com a geolocalização de seus endereços, encontre-os aqui:"),
 ];
