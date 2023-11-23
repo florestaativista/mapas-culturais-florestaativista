@@ -85,6 +85,24 @@ $home-register: #002842;
     }
     .main-header__buttons{
         margin-right: 3rem;
+        .notification-modal__menu-desk{
+            label{
+                text-transform: uppercase;
+                color: #000;
+                font-family: 'Degular Display';
+            }
+        }
+        .mc-header-menu-user{
+            .v-popper--theme-dropdown{
+                a{
+                    .user__name{
+                        text-transform: uppercase;
+                        color: #000;
+                        font-family: 'Degular Display';
+                    }
+                }    
+            }
+        }
     }
 }
 /* Esconde div  destaques */
