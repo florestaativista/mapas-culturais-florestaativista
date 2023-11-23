@@ -94,11 +94,17 @@ div.home-feature {
 
 .home-header{
     .home-header__content{
+        @media(max-width: 460px){
+            gap: 0;
+        }
         &::before{
             background: 0;
         }
         .home-header__main{
             max-width: 22rem;
+            @media(max-width: 460px){
+                margin: 65px 0;
+            }
 
             .home-header__title{
                 text-transform: uppercase;
