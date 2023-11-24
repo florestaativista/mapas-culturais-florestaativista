@@ -146,6 +146,22 @@ div.home-feature {
         font-weight: bold;
         font-family: 'Space Grotesk';
     }
+   .entity-card__footer{
+        .entity-card__footer--action{
+            .button{
+                background-color: #a53989;
+                border: none;
+                text-transform: uppercase;
+                color: #FFF;
+                font-family: 'Degular Display';
+                
+                &:hover{
+                    background-color: #a53989;    
+                }   
+            }
+           
+        } 
+    }
 }
 
 .home-entities{
