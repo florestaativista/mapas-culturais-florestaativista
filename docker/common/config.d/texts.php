@@ -3,7 +3,7 @@
 use \MapasCulturais\i;
 
 return [
-    "text:home-header.title" => i::__("Bem-vindas ao Portal da Floresta"),
+    "text:home-header.title" => i::__("Olá, você está na Floresta Ativista!"),
     "text:home-header.description" => i::__("A Floresta Ativista é uma plataforma que reúne um ecossistema ativista de coletivos, redes, iniciativas e pessoas com vontade de construir e estar em comunidades. Um lugar onde os mais diferentes temas, lutas e causas se encontram e se misturam. Um terreno fértil de onde brotam agendas comuns e projetos que fortalecem as principais LUTAS CIVILIZATÓRIAS da nossa geração. É a partir daqui que iremos mapear projetos e semear conexões em todo país."),
     "text:home-opportunities.description" => i::__("Cadastre-se, participe de editais e oportunidades e concorra aos benefícios."),
     "text:home-entities.opportunities" => i::__("É aqui que você pode acessar as inúmeras possibilidades de conexão com a Floresta Ativista. Confira todas atividades com inscrição, como oficinas, aulões, editais, convocatórias, eventos e demais oportunidades abertas em nosso sistema. Você também pode criar o seu próprio formulário e divulgar sua oportunidade para outros agentes da floresta."),
