@@ -14,6 +14,6 @@ return [
     "text:home-feature.description" => i::__("Confira os últimos destaques de cada uma das áreas."),
     "text:home-register.title" => i::__("Faça seu cadastro e faça parte da Floresta Ativista!"),
     "text:home-register.description" => i::__("Colabore com a plataforma livre, colaborativa e interativa de mapeamento do cenário cultural e ativista."),
-    'text:home-developers.description' => 'Alô desenvolvedores! Além disso, Floresta Ativista é um software livre, criado em parceria entre a hacklab/, o Fora do Eixo e a Mídia NINJA e coletivos que investem na plataforma. Você pode contribuir para o seu desenvolvimento através do GitHub',
+    'text:home-developers.description' => 'A Floresta Ativista é um software livre criado na parceria entre a hacklab/, o Fora do Eixo, a Mídia NINJA, a Rede Livre e coletivos que investem na plataforma. Você pode contribuir para o seu desenvolvimento através do GitHub.',
     "text:home-map.description" => i::__("Os agentes, os espaços e os eventos cadastrados contam com a geolocalização de seus endereços, encontre-os aqui:"),
 ];
