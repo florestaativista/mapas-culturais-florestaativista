@@ -15544,8 +15544,15 @@ div.home-feature {
   font-weight: bold;
   font-family: "Space Grotesk";
 }
+.home-entities .home-entities__content .home-entities__content--cards .card__left--img {
+  height: 13.75rem;
+}
 .home-entities .home-entities__content .home-entities__content--cards .card {
   border: 1px solid #000;
+}
+.home-entities .home-entities__content .home-entities__content--cards .card .card__left--content {
+  align-items: end;
+  background-color: rgba(0, 0, 0, 0);
 }
 .home-entities .home-entities__content .home-entities__content--cards .card .card__left--content .card__left--content-icon {
   background-color: #fff;
