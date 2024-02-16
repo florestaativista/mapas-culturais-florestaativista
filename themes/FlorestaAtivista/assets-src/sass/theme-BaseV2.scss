@@ -178,9 +178,14 @@ div.home-feature {
             }
         }
         .home-entities__content--cards{
+            .card__left--img {
+                height: 13.75rem;
+            }    
             .card{
                 border: 1px solid #000;
                 .card__left--content{
+                    align-items: end;
+                    background-color: rgba(0, 0, 0, 0);
                     .card__left--content-icon{
                         background-color: #fff;
                         svg{
@@ -189,7 +194,7 @@ div.home-feature {
                     }
                     .title{
                         display: none;
-                    }    
+                    }
                 }
                 .card__right{
                     p{
