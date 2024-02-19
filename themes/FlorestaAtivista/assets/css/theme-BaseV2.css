@@ -15707,3 +15707,7 @@ div.home-feature {
 .main-app .tabs-component .tabs-component__panels .entity-list .entity-list__list-item-link .entity-list__list-item {
   font-size: 1rem;
 }
+
+.entity-card .entity-card__footer .entity-card__footer--action .button {
+  max-width: 9.25rem;
+}

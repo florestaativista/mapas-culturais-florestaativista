@@ -376,7 +376,18 @@ div.home-feature {
                     }
                 }
             }
-                
+        }
+            
+    }
+}
+
+
+.entity-card {
+    .entity-card__footer {
+        .entity-card__footer--action {
+            .button {
+                max-width: 9.25rem;
+            }
         }
     }
 }
