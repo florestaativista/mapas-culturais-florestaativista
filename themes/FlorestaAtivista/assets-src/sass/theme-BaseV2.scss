@@ -376,11 +376,41 @@ div.home-feature {
                     }
                 }
             }
+
+            .entity-gallery__list {
+                gap: 1rem;
+
+                .entity-gallery__list--image {
+                    max-width: 15rem;
+                    .entity-gallery__list--image-img {
+                        height: 10rem;
+                        width: 15rem;
+                        border-radius: var(--mc-border-radius-sm);
+
+                        & img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .entity-gallery__list--video {
+                    max-width: 15rem;
+                    .entity-gallery__list--video-img {
+                        height: 10rem;
+                        width: 15rem;
+                        border-radius: var(--mc-border-radius-sm);
+
+                        & img {
+                            width: 100%;
+                        }
+                    }
+                
+                }
+            }
         }
             
     }
 }
-
 
 .entity-card {
     .entity-card__footer {

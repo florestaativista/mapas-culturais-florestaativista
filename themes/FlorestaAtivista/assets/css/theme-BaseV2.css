@@ -15707,6 +15707,31 @@ div.home-feature {
 .main-app .tabs-component .tabs-component__panels .entity-list .entity-list__list-item-link .entity-list__list-item {
   font-size: 1rem;
 }
+.main-app .tabs-component .tabs-component__panels .entity-gallery__list {
+  gap: 1rem;
+}
+.main-app .tabs-component .tabs-component__panels .entity-gallery__list .entity-gallery__list--image {
+  max-width: 15rem;
+}
+.main-app .tabs-component .tabs-component__panels .entity-gallery__list .entity-gallery__list--image .entity-gallery__list--image-img {
+  height: 10rem;
+  width: 15rem;
+  border-radius: var(--mc-border-radius-sm);
+}
+.main-app .tabs-component .tabs-component__panels .entity-gallery__list .entity-gallery__list--image .entity-gallery__list--image-img img {
+  width: 100%;
+}
+.main-app .tabs-component .tabs-component__panels .entity-gallery__list .entity-gallery__list--video {
+  max-width: 15rem;
+}
+.main-app .tabs-component .tabs-component__panels .entity-gallery__list .entity-gallery__list--video .entity-gallery__list--video-img {
+  height: 10rem;
+  width: 15rem;
+  border-radius: var(--mc-border-radius-sm);
+}
+.main-app .tabs-component .tabs-component__panels .entity-gallery__list .entity-gallery__list--video .entity-gallery__list--video-img img {
+  width: 100%;
+}
 
 .entity-card .entity-card__footer .entity-card__footer--action .button {
   max-width: 9.25rem;
