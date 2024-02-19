@@ -15684,3 +15684,26 @@ div.home-feature {
 .lgpd-creditos {
   font-weight: bold;
 }
+
+.main-app .tabs-component .tabs-component__panels .property-list {
+  font-weight: bold;
+}
+.main-app .tabs-component .tabs-component__panels .entity-list .entity-list__list-item-link {
+  grid-template-columns: 63px 9.6875rem;
+  gap: 1rem;
+}
+.main-app .tabs-component .tabs-component__panels .entity-list .entity-list__list-item-link .entity-list__list-item-img {
+  max-width: none;
+  width: 4rem;
+  height: 4rem;
+}
+.main-app .tabs-component .tabs-component__panels .entity-list .entity-list__list-item-link .entity-list__list-item-img .mc-avatar--xsmall {
+  width: 4rem;
+  height: 4rem;
+}
+.main-app .tabs-component .tabs-component__panels .entity-list .entity-list__list-item-link .entity-list__list-item-img .mc-avatar--xsmall .iconify {
+  font-size: 2.5rem;
+}
+.main-app .tabs-component .tabs-component__panels .entity-list .entity-list__list-item-link .entity-list__list-item {
+  font-size: 1rem;
+}
