@@ -23,6 +23,7 @@ services:
       - ../plugins/SamplePlugin:/var/www/src/plugins/SamplePlugin
       - ../plugins/MultipleLocalAuth:/var/www/src/plugins/MultipleLocalAuth
       - ../themes/FlorestaAtivista:/var/www/src/themes/FlorestaAtivista
+      - ../themes/FlorestaAtivista/overrides/agent-types.php:/var/www/src/conf/agent-types.php
       - ../themes/FlorestaAtivista/overrides/space-types.php:/var/www/src/conf/space-types.php
       - ../themes/FlorestaAtivista/overrides/project-types.php:/var/www/src/conf/project-types.php
       - ../themes/FlorestaAtivista/overrides/opportunity-types.php:/var/www/src/conf/opportunity-types.php

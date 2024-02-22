@@ -3,6 +3,7 @@ FROM hacklab/mapasculturais:7.3.11
 COPY themes /var/www/src/themes
 COPY plugins /var/www/src/plugins
 
+COPY themes/FlorestaAtivista/overrides/agent-types.php /var/www/src/conf/agent-types.php
 COPY themes/FlorestaAtivista/overrides/space-types.php /var/www/src/conf/space-types.php
 COPY themes/FlorestaAtivista/overrides/project-types.php /var/www/src/conf/project-types.php
 COPY themes/FlorestaAtivista/overrides/opportunity-types.php /var/www/src/conf/opportunity-types.php
