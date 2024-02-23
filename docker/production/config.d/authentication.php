@@ -15,5 +15,6 @@ return [
         'client_secret' => env('AUTH_AUTHENTIK_APP_SECRET', ''),
         'scope' => env('AUTH_AUTHENTIK_SCOPE', ''),
         'login_url' => env('AUTH_AUTHENTIK_LOGIN_URL', ''),
+        'logout_url' => env('AUTH_AUTHENTIK_LOGOUT_URL', ''),
     ]
 ];
