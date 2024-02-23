@@ -158,7 +158,6 @@ return array(
         41 => array( 'name' => \MapasCulturais\i::__("Mutirão")),
         42 => array( 'name' => \MapasCulturais\i::__("Oficina")),
         43 => array( 'name' => \MapasCulturais\i::__("Palestra")),
-        44 => array( 'name' => \MapasCulturais\i::__("Palestra")),
         45 => array( 'name' => \MapasCulturais\i::__("Performance")),
         46 => array( 'name' => \MapasCulturais\i::__("Pesquisa")),
         47 => array( 'name' => \MapasCulturais\i::__("Programa")),
