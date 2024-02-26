@@ -15,6 +15,13 @@ class Theme extends \MapasCulturais\Themes\BaseV2\Theme {
         parent::_init();
 
         $app = App::i();
+
+        $this->enqueueStyle("app-v2", "logo-footer", "css/logo-footer.css");
+        
+        $app->hook("template(<<*>>.<<*>>.main-footer-links):after", function(){
+            $this->part("logo-footer");
+        });
+
         $this->assetManager->publishFolder('custom-fonts');
         $app->hook('mapasculturais.body:after', function() use ($app) {
             $this->part('theme-css');
