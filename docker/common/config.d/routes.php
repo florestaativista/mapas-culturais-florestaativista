@@ -32,6 +32,3 @@ foreach($new_routes as $route => $target) {
 }
 
 return ['routes' => $routes];
-
-
-/*
