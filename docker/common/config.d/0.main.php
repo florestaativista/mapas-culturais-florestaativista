@@ -1,6 +1,7 @@
 <?php 
 
 return [
+    'module.main-footer' => env('MODULE_MAIN_FOTTER_LOGOS_ENABLE', false),
     'app.siteName' => 'Rede Floresta Ativista',
     'app.siteDescription' => 'A Floresta Ativista é uma plataforma que reúne um ecossistema ativista de coletivos, redes, iniciativas e pessoas com vontade de construir e estar em comunidades',
     
