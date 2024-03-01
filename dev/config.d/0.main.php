@@ -3,6 +3,8 @@ $_ENV['APP_MODE'] = 'development';
 $__process_assets = false;
 
 return [
+    'module.main-footer' => env('MODULE_MAIN_FOTTER_LOGOS_ENABLE', false),
+    
     'themes.active' => 'FlorestaAtivista',
     
     'app.verifiedSealsIds' => '1',

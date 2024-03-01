@@ -1,3 +1,4 @@
+<?php if($app->config['module.main-footer']):?>
 <div class="logo-footer">
     <img src="<?php $this->asset('img/footer/casa-das-redes.png'); ?>">
     <img src="<?php $this->asset('img/footer/casa-ninja-amazonia.png'); ?>">
@@ -25,3 +26,4 @@
     <img src="<?php $this->asset('img/footer/ninja-verso.png'); ?>">
     <img src="<?php $this->asset('img/footer/xepa.png'); ?>">
 </div>
+<?php endif ?>
