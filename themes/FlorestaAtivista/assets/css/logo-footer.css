@@ -1,9 +1,5 @@
 .logo-footer {
-    margin: 16px;
-    text-align: center;
-}
-
-.logo-footer img {
-    margin: 10px;
-    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
