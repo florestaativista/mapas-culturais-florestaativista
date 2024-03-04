@@ -1,4 +1,5 @@
 <?php if($app->config['module.main-footer']):?>
+<div class="logo-footer">
     <div>
         <img src="<?php $this->asset('img/footer/1.png'); ?>">
         <img src="<?php $this->asset('img/footer/2.png'); ?>">
