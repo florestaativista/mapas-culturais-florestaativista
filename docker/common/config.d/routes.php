@@ -29,6 +29,8 @@ $new_routes = [
     'metaversoverao' => ['opportunity',21],
     '8M2024' => ['opportunity',23],
     'ATL20' => ['opportunity',25],
+    'causa2024' => ['opportunity',45],
+
 ];
 foreach($new_routes as $route => $target) {
     $routes['shortcuts'][$route] = [$target[0], 'single', [$target[1]]];
