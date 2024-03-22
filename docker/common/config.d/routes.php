@@ -30,6 +30,7 @@ $new_routes = [
     '8M2024' => ['opportunity',23],
     'ATL20' => ['opportunity',25],
     'causa2024' => ['opportunity',45],
+    'cinenave' => ['opportunity',47],
 
 ];
 foreach($new_routes as $route => $target) {
