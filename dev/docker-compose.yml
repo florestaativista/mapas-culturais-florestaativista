@@ -28,6 +28,7 @@ services:
       - ../themes/FlorestaAtivista/overrides/project-types.php:/var/www/src/conf/project-types.php
       - ../themes/FlorestaAtivista/overrides/opportunity-types.php:/var/www/src/conf/opportunity-types.php
       - ../themes/FlorestaAtivista/overrides/taxonomies.php:/var/www/src/conf/taxonomies.php
+      - ../themes/FlorestaAtivista/translations/replacements:/var/www/src/translations/replacements
 
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10

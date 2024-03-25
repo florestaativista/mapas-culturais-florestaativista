@@ -11,6 +11,7 @@ services:
 
   ##### versão sem ssl
       - ./docker/production/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./themes/FlorestaAtivista/translations/replacements:/var/www/src/translations/replacements
 
   ##### versão com ssl
     #  - ./docker/production/nginx-ssl.conf:/etc/nginx/conf.d/default.conf
