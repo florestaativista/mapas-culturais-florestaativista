@@ -32,6 +32,8 @@ return [
                 'cp {IN} {OUT}':
                 'uglifycss {IN} > {OUT}',
 
-        'publishFolderCommand' => 'cp -R {IN} {PUBLISH_PATH}{FILENAME}'
+        'publishFolderCommand' => 'cp -R {IN} {PUBLISH_PATH}{FILENAME}',
+        
+        'registration.prefix' => 'FA-'
     ]),
 ];
