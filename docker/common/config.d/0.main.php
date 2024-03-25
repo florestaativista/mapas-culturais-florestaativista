@@ -11,4 +11,5 @@ return [
     // Ids dos selos verificadores. Para utilizar múltiplos selos informe os ids separados por vírgula.
     'app.verifiedSealsIds' => '1', 
 
+    'registration.prefix' => 'FA-'
 ];
