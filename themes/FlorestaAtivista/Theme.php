@@ -17,7 +17,11 @@ class Theme extends \MapasCulturais\Themes\BaseV2\Theme {
         $app = App::i();
 
         $this->enqueueStyle("app-v2", "logo-footer", "css/logo-footer.css");
-        
+
+        $app->hook('component(mc-icon).iconset', function(&$iconset) {
+            $iconset['hand'] = 'ion:hand-right';
+        });
+
         $app->hook("template(<<*>>.<<*>>.main-footer-links):after", function(){
             $this->part("logo-footer");
         });
