@@ -11,5 +11,8 @@ return [
     // Ids dos selos verificadores. Para utilizar múltiplos selos informe os ids separados por vírgula.
     'app.verifiedSealsIds' => '1', 
 
-    'registration.prefix' => 'FA-'
+    'registration.prefix' => 'FA-',
+
+    // Define selo que ira destacar os agentes parceiros.
+    'home-logo-strip.verifiedSealsIds' => env('HOME_LOGO_STRIP_VERIFIELD_SEALS_ID', ''),
 ];

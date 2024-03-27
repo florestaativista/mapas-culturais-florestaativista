@@ -432,3 +432,18 @@ div.home-feature {
         }
     }
 }
+
+.home-logo-strip {
+    display: flex;
+    .icon {
+        border: solid #00000025 1px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    div {
+        img {
+            width: 30%;
+        }
+        text-align: center;
+    }
+}
