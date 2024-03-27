@@ -165,7 +165,7 @@ $this->import('
                     </div>
                 </div>
                 <div class="card__right">
-                    <!-- <p><?= $this->text('opportunities', i::__('Faça a sua inscrição ou acesse o resultado de diversas convocatórias como editais, oficinas, prêmios e concursos. Você também pode criar o seu próprio formulário e divulgar uma oportunidade para outros agentes culturais.')) ?></p> -->
+                    <p><?= i::__('Acesse o portal que te abre as portas para um universo de atualizações sobre comunidades em todo país. Confira a curadoria das principais histórias e notícias da nossa rede e fique sabendo de tudo que está rolando e os projetos em desenvolvimento.') ?></p>
                     <a href="https://florestaativista.org/" target="_blank" class="button button--icon button--sm opportunity__color">
                         <?= i::__('Acessar')?>
                         <mc-icon name="external"></mc-icon>
@@ -190,7 +190,7 @@ $this->import('
                     </div>
                 </div>
                 <div class="card__right">
-                    <!-- <p><?= $this->text('opportunities', i::__('Faça a sua inscrição ou acesse o resultado de diversas convocatórias como editais, oficinas, prêmios e concursos. Você também pode criar o seu próprio formulário e divulgar uma oportunidade para outros agentes culturais.')) ?></p> -->
+                    <p><?= i::__('Navegue entre as comunidades temáticas e territoriais que compões a nossa floresta. Você pode trilhar caminhos diferentes entre as iniciativas nativas da nossa rede e acompanhar os detalhes de cada uma, suas agendas e oportunidades.') ?></p>
                     <a href="https://rede.florestaativista.org/agentes/#list" target="_blank" class="button button--icon button--sm opportunity__color">
                         <?= i::__('Acessar')?>
                         <mc-icon name="external"></mc-icon>
