@@ -438,7 +438,7 @@ div.home-feature {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: size(15) size(134);
+    margin: 0.9375rem 40.375rem;
 
     &--title {
         font-weight: 700;
@@ -464,6 +464,7 @@ div.home-feature {
     }
 
     &__wrapper {
+        flex-basis: calc(9.09% - 10px);
         margin: size(5);
     }
 
