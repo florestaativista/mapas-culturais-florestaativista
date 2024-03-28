@@ -12,8 +12,8 @@ $this->import('
 ?>
 
 <div v-if="homeLogoStripActive" class="home-logo-strip">
-    <div v-for="item in agentList">
-        <div>
+    <div class="home-logo-strip__wrapper" v-for="item in agentList">
+        <div class="home-logo-strip__content">
             <a :href="href(item)">
                 <div v-if="getAvatar(item)" :title="item.name" class="logo">
                     <img :src="item.files?.avatar?.url" :alt="item.name">

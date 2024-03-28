@@ -435,15 +435,48 @@ div.home-feature {
 
 .home-logo-strip {
     display: flex;
-    .icon {
-        border: solid #00000025 1px;
-        padding: 15px;
-        border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: size(15) size(134);
+
+    &__wrapper {
+        margin: size(5);
     }
-    div {
-        img {
-            width: 30%;
+
+    &__content {
+        .icon, .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: size(88); 
+            height: size(88); 
         }
-        text-align: center;
+
+        .icon {
+            border: var(--mc-border-hairline) var(--mc-gray-300);
+            padding: size(15);
+            border-radius: size(10);
+        }
+
+        .logo {
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1432px) {
+        &__wrapper {
+            max-width: 50%; 
+        }
+    }
+
+    @media screen and (max-width: 708px) {
+        margin: size(15) size(38);
+        &__wrapper {
+            max-width: 29%; 
+        }
     }
 }
