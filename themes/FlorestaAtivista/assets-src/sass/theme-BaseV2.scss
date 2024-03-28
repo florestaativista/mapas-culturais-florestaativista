@@ -440,6 +440,29 @@ div.home-feature {
     flex-wrap: wrap;
     margin: size(15) size(134);
 
+    &--title {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.75rem;
+        margin-top: 0.25rem;
+        text-transform: uppercase;
+        font-family: "Degular Display";  
+    }
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .logo-strip-icon {
+            margin-top: 30px;
+            svg {
+                height: 60px;
+                width: 60px;
+            }
+        }
+    }
+
     &__wrapper {
         margin: size(5);
     }
