@@ -13,7 +13,7 @@ $this->import('
 
 ?>
 
-<div class="home-logo-strip__title">
+<div v-if="homeLogoStripActive" class="home-logo-strip__title">
     <span class="logo-strip-icon"><mc-icon name="hand"></mc-icon></span>
     <label class="home-logo-strip--title"><?= $this->text('title', i::__('Comunidades')) ?></label>
 </div>
