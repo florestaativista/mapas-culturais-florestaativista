@@ -15745,3 +15745,43 @@ div.home-feature {
 .entity-card .entity-card__footer .entity-card__footer--action .button {
   max-width: 9.25rem;
 }
+
+.home-logo-strip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.9375rem 8.375rem;
+}
+.home-logo-strip__wrapper {
+  margin: 0.3125rem;
+}
+.home-logo-strip__content .icon, .home-logo-strip__content .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.5rem;
+  height: 5.5rem;
+}
+.home-logo-strip__content .icon {
+  border: var(--mc-border-hairline) var(--mc-gray-300);
+  padding: 0.9375rem;
+  border-radius: 0.625rem;
+}
+.home-logo-strip__content .logo img {
+  max-width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 1432px) {
+  .home-logo-strip__wrapper {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 708px) {
+  .home-logo-strip {
+    margin: 0.9375rem 2.375rem;
+  }
+  .home-logo-strip__wrapper {
+    max-width: 29%;
+  }
+}
