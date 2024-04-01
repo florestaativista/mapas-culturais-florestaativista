@@ -171,9 +171,9 @@ $this->import('
                         <mc-icon name="access"></mc-icon>
                     </mc-link>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="card">
+            <!-- <div class="card">
                 <div class="card__left">
                     <div class="card__left--content">
                         <div class="card__left--content-icon opportunity__background">
@@ -196,7 +196,7 @@ $this->import('
                         <mc-icon name="external"></mc-icon>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
