@@ -15758,7 +15758,7 @@ div.home-feature {
   align-items: center;
   flex-wrap: wrap;
   max-width: 71.125rem;
-  margin: 0.9375rem;
+  margin: 1rem 1rem 5rem;
 }
 .home-logo-strip--title {
   font-weight: 700;
@@ -15792,23 +15792,10 @@ div.home-feature {
 }
 .home-logo-strip__content .icon {
   border: var(--mc-border-hairline) var(--mc-gray-300);
-  padding: 0.9375rem;
   border-radius: 0.625rem;
+  padding: 0.9375rem;
 }
 .home-logo-strip__content .logo img {
   max-width: 100%;
   height: auto;
-}
-@media screen and (max-width: 1432px) {
-  .home-logo-strip__wrapper {
-    max-width: 50%;
-  }
-}
-@media screen and (max-width: 708px) {
-  .home-logo-strip {
-    margin: 0.9375rem 2.375rem;
-  }
-  .home-logo-strip__wrapper {
-    max-width: 29%;
-  }
 }
