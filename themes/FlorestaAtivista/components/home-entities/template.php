@@ -191,7 +191,7 @@ $this->import('
                 </div>
                 <div class="card__right">
                     <p><?= i::__('Navegue entre as comunidades temáticas e territoriais que compões a nossa floresta. Você pode trilhar caminhos diferentes entre as iniciativas nativas da nossa rede e acompanhar os detalhes de cada uma, suas agendas e oportunidades.') ?></p>
-                    <a href="https://rede.florestaativista.org/agentes/#list" target="_blank" class="button button--icon button--sm opportunity__color">
+                    <a href="<?=$app->createUrl("search", "communities")?>" class="button button--icon button--sm opportunity__color">
                         <?= i::__('Acessar')?>
                         <mc-icon name="external"></mc-icon>
                     </a>
