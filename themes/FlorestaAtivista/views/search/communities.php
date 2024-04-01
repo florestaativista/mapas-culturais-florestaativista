@@ -19,8 +19,14 @@ $this->breadcrumb = [
     ['label' => i::__('Inicio'), 'url' => $app->createUrl('site', 'index')],
     ['label' => i::__('Comunidades'), 'url' => $app->createUrl('search', 'communities')],
 ]; 
+
+$searchFilterCommunities = "";
+if($app->config['home-logo-strip.verifiedSealsIds']) {
+    $searchFilterCommunities =  ",'@seals': {$app->config['home-logo-strip.verifiedSealsIds']}";
+}
+
 ?>
-<search page-title="<?php i::esc_attr_e('Comunidades') ?>" entity-type="agent" :initial-pseudo-query="{'term:area':[], '@seals': 2}">
+<search page-title="<?php i::esc_attr_e('Comunidades') ?>" entity-type="agent" :initial-pseudo-query="{'term:area':[] <?=$searchFilterCommunities?>}">
     <template #default="{pseudoQuery}">
         <mc-tabs class="search__tabs">
             <template #before-tablist>
