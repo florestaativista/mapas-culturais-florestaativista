@@ -504,3 +504,19 @@ div.home-feature {
         }
     }
 }
+
+ol[type="1"] {
+    counter-reset: section;       
+    list-style-type: none;
+    
+}
+
+ol[type="1"]>li {
+    display: block;
+    margin: 10px 10px 0;
+}
+
+ol[type="1"] > li::before {
+    counter-increment: section;                                   
+    content: counters(section, ".") " ";
+}  
