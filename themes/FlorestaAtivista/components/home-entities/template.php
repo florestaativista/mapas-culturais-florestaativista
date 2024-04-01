@@ -148,7 +148,7 @@ $this->import('
                 </div>
             </div>
 
-            <div v-if="global.enabledEntities.projects" class="card">
+            <!-- <div v-if="global.enabledEntities.projects" class="card">
                 <div class="card__left">
                     <div class="card__left--content">
                         <div class="card__left--content-icon project__background">
