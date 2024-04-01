@@ -48,6 +48,31 @@ $this->import('
                 </div>
             </div>
 
+            <div class="card">
+                <div class="card__left">
+                    <div class="card__left--content">
+                        <div class="card__left--content-icon opportunity__background">
+                            <mc-icon name="eye-view"></mc-icon>
+                        </div>                        
+                        <div class="card__left--content-title">
+                            <label class="title">
+                                <?= i::__('Notícias') ?>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="card__left--img">
+                        <img src="<?php $this->asset('img/home/home-entities/news.png'); ?>" />
+                    </div>
+                </div>
+                <div class="card__right">
+                    <p><?= i::__('Acesse o portal que te abre as portas para um universo de atualizações sobre comunidades em todo país. Confira a curadoria das principais histórias e notícias da nossa rede e fique sabendo de tudo que está rolando e os projetos em desenvolvimento.') ?></p>
+                    <a href="https://florestaativista.org/" target="_blank" class="button button--icon button--sm opportunity__color">
+                        <?= i::__('Acessar')?>
+                        <mc-icon name="external"></mc-icon>
+                    </a>
+                </div>
+            </div>
+
             <div v-if="global.enabledEntities.events" class="card">
                 <div class="card__left">
                     <div class="card__left--content">
@@ -145,31 +170,6 @@ $this->import('
                         <?= i::__('Ver todos')?>
                         <mc-icon name="access"></mc-icon>
                     </mc-link>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__left">
-                    <div class="card__left--content">
-                        <div class="card__left--content-icon opportunity__background">
-                            <mc-icon name="eye-view"></mc-icon>
-                        </div>                        
-                        <div class="card__left--content-title">
-                            <label class="title">
-                                <?= i::__('Notícias') ?>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="card__left--img">
-                        <img src="<?php $this->asset('img/home/home-entities/news.png'); ?>" />
-                    </div>
-                </div>
-                <div class="card__right">
-                    <p><?= i::__('Acesse o portal que te abre as portas para um universo de atualizações sobre comunidades em todo país. Confira a curadoria das principais histórias e notícias da nossa rede e fique sabendo de tudo que está rolando e os projetos em desenvolvimento.') ?></p>
-                    <a href="https://florestaativista.org/" target="_blank" class="button button--icon button--sm opportunity__color">
-                        <?= i::__('Acessar')?>
-                        <mc-icon name="external"></mc-icon>
-                    </a>
                 </div>
             </div>
 
