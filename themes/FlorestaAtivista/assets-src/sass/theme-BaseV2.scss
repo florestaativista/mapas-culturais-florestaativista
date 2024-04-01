@@ -437,8 +437,16 @@ div.home-feature {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    margin: 0.9375rem 40.375rem;
+    flex-direction: column;
+
+    &__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: size(1138);
+        margin: size(15);
+    }
 
     &--title {
         font-weight: 700;

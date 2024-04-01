@@ -22,7 +22,7 @@ class Theme extends \MapasCulturais\Themes\BaseV2\Theme {
             $iconset['hand'] = 'ion:hand-right';
         });
 
-        $app->hook("component(home-developers):after", function(){
+        $app->hook("component(home-entities):after", function(){
             $this->part("home-logo-strip");
         });
 
