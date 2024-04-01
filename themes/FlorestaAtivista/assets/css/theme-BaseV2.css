@@ -15750,8 +15750,35 @@ div.home-feature {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.home-logo-strip__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  margin: 0.9375rem 8.375rem;
+  max-width: 71.125rem;
+  margin: 0.9375rem;
+}
+.home-logo-strip--title {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  margin-top: 0.25rem;
+  text-transform: uppercase;
+  font-family: "Degular Display";
+}
+.home-logo-strip__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-logo-strip__title .logo-strip-icon {
+  margin-top: 30px;
+}
+.home-logo-strip__title .logo-strip-icon svg {
+  height: 60px;
+  width: 60px;
 }
 .home-logo-strip__wrapper {
   margin: 0.3125rem;
