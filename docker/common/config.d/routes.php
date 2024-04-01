@@ -37,4 +37,6 @@ foreach($new_routes as $route => $target) {
     $routes['shortcuts'][$route] = [$target[0], 'single', [$target[1]]];
 }
 
+$routes["shortcuts"]['comunidades'] = ["search", "communities"];
+
 return ['routes' => $routes];
