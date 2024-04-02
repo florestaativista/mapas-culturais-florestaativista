@@ -39,4 +39,8 @@ foreach($new_routes as $route => $target) {
 
 $routes["shortcuts"]['comunidades'] = ["search", "communities"];
 
+unset($routes['shortcuts']['agentes']);
+$routes["shortcuts"]['perfis'] = ["search", "agents"];
+
+
 return ['routes' => $routes];
