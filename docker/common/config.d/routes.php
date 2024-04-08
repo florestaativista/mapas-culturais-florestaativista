@@ -42,5 +42,7 @@ $routes["shortcuts"]['comunidades'] = ["search", "communities"];
 unset($routes['shortcuts']['agentes']);
 $routes["shortcuts"]['perfis'] = ["search", "agents"];
 
+unset($routes['shortcuts']['eventos']);
+$routes["shortcuts"]['agendas'] = ["search", "events"];
 
 return ['routes' => $routes];

@@ -1,3 +1,5 @@
 Agente Cultural >>> Perfil
 agentes >>> Perfis
 agente >>> Perfil
+eventos >>> Agendas
+evento >>> Agenda

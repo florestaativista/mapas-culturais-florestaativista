@@ -81,7 +81,7 @@ $this->import('
                         </div>                        
                         <div class="card__left--content-title">
                             <label class="title">
-                                <?= i::__('Eventos') ?>
+                                <?= i::__('Agenda') ?>
                             </label>
                         </div>
                     </div>
