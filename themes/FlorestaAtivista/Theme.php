@@ -27,6 +27,11 @@ class Theme extends \MapasCulturais\Themes\BaseV2\Theme {
         $app->hook('template(<<*>>.<<*>>.mc-header-menu-opportunity):after', function() {
             $this->part('mc-header-menu-communities');
         });
+
+        // Insere o menu notícias no header
+        $app->hook('template(<<*>>.<<*>>.mc-header-menu-opportunity):before', function() {
+            $this->part('mc-header-menu-noticies');
+        });
         
         // Insere o ícone comunidades na lista de icones padrão
         $app->hook('component(mc-icon).iconset', function(&$iconset) {

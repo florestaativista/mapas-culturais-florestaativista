@@ -15,4 +15,7 @@ return [
 
     // Define selo que ira destacar os agentes parceiros.
     'home-logo-strip.verifiedSealsIds' => env('HOME_LOGO_STRIP_VERIFIELD_SEALS_ID', ''),
+
+    // Define link para o menu de notícias no site
+    'app.menu.noticies.link' => env('MENU_NOTICIES_LINK','https://florestaativista.org/'),
 ];
