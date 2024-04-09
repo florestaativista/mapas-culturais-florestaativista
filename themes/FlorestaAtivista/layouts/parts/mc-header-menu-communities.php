@@ -12,7 +12,7 @@ use MapasCulturais\i;
 <?php $this->applyTemplateHook('mc-header-menu-communities', 'before') ?>
 <li>
     <?php $this->applyTemplateHook('mc-header-menu-communities', 'begin') ?>
-    <a href="<?= $app->createUrl('search', 'communities') ?>" class="mc-header-menu--item agent">
+    <a href="<?= $app->createUrl('search', 'communities') ?>" class="mc-header-menu--item communities">
         <span class="icon"> <mc-icon name="hand"> </span>
         <p class="label"> <?php i::_e('Comunidades') ?> </p>
     </a>
