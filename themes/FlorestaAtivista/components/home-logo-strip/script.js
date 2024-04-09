@@ -28,7 +28,7 @@ app.component('home-logo-strip', {
             return null;
         },
         href(item) {
-            return item.site || item.singleUrl;
+            return item.singleUrl;
         }
     },
 });
