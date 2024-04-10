@@ -38,6 +38,14 @@ class Theme extends \MapasCulturais\Themes\BaseV2\Theme {
             $iconset['hand'] = 'ion:hand-right';
         });
 
+        // Alterar filtro da página de pesquisa de comunidades
+        $app->hook("component(search-filter-agent):before", function(&$data, &$template) {
+            if($this->controller->action === "communities") {
+                $template = "empty";
+                $this->part("search-filter-communities");
+            }
+        });
+
         // Insere a seção de afluentes na home
         $app->hook("component(home-entities):after", function(){
             $this->part("home-logo-strip");
