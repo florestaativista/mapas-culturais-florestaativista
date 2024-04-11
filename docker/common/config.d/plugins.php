@@ -2,6 +2,7 @@
 
 return [
     'plugins' => [
+        'Analytics',
         'MapasBlame' => [
             'namespace' => 'MapasBlame',
             'config' => [
