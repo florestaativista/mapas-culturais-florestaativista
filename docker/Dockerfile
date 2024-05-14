@@ -1,4 +1,4 @@
-FROM hacklab/mapasculturais:7.3.49-avatar
+FROM hacklab/mapasculturais:7.3.54-avatar
 
 COPY themes /var/www/src/themes
 COPY plugins /var/www/src/plugins
