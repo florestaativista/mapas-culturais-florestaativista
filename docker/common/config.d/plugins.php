@@ -3,6 +3,7 @@
 return [
     'plugins' => [
         'Analytics',
+        'SettingsFa',
         'MapasBlame' => [
             'namespace' => 'MapasBlame',
             'config' => [
