@@ -25,17 +25,20 @@ class Controller extends \MapasCulturais\Controllers\EntityController
         $conn = $em->getConnection();
 
         $files_data = $conn->fetchAll("
-        select 
+         select 
             a.id as id_agente,
             a.name as nome_agente,
             f.path,
-            r.id as id_inscricao	
+            r.id as id_inscricao,	
+            o2.name as nome_da_oportunidade
         from 
             registration r 
         join 
             file f on r.agent_id = f.object_id and f.object_type = 'MapasCulturais\Entities\Agent' and f.grp = 'avatar'
         join 
             agent a on r.agent_id = a.id
+        join
+        	opportunity o2 on r.opportunity_id = o2.id
         where 
             r.opportunity_id in (
                 select 
@@ -54,7 +57,8 @@ class Controller extends \MapasCulturais\Controllers\EntityController
         foreach ($files_data as $data) {
             if (!file_exists(PUBLIC_PATH . 'files/' . $data['path'])) {
                 $result['Quantidade']++;
-                $result['ID e nome dos agentes afetados'][] = 'ID: ' . $data['id_agente'] . ' -- ' . $data['nome_agente'] . ' ---- Inscrição ' . $data['id_inscricao'];
+                $result['ID e nome dos agentes afetados'][] = 'ID: ' . $data['id_agente'] . ' ** ' . $data['nome_agente'] . '** ---- Inscrição ' . $data['id_inscricao'] . ' ---- Oportunidade: '.$data['nome_da_oportunidade'];
+                $result['data'][] = $data;
             }
         }
 
