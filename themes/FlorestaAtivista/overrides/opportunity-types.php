@@ -139,6 +139,7 @@ return array(
         10 => array( 'name' => \MapasCulturais\i::__("Convenção")),
         11 => array( 'name' => \MapasCulturais\i::__("Convocatória")),
         12 => array( 'name' => \MapasCulturais\i::__("Curso")),
+        63=> array('name' => \MapasCulturais\i::__("Clima")),
         13 => array( 'name' => \MapasCulturais\i::__("Debate")),
         14 => array( 'name' => \MapasCulturais\i::__("Edital")),
         15 => array( 'name' => \MapasCulturais\i::__("Encontro")),
