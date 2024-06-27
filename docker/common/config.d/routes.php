@@ -31,8 +31,8 @@ $new_routes = [
     'ATL20' => ['opportunity',25],
     'causa2024' => ['opportunity',45],
     'cinenave' => ['opportunity',47],
-    'um-dia-pela-causa' => ['opportunity',94]
-
+    'um-dia-pela-causa' => ['opportunity',94],
+    'somdeminas' => ['opportunity',142],
 ];
 foreach($new_routes as $route => $target) {
     $routes['shortcuts'][$route] = [$target[0], 'single', [$target[1]]];
