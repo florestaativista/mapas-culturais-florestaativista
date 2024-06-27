@@ -535,6 +535,18 @@ return array(
             'placeholder' => "nomedousuario",
             'available_for_opportunities' => true
         ),
+        'tiktok' => array(
+            'type' => "socialMedia",
+            'label' => \MapasCulturais\i::__('Tiktok'),
+            'serialize' =>function($value){
+                return Utils::parseSocialMediaUser('tiktok.com', $value);
+            },
+            'validations' => array(
+                "v::oneOf(v::urlDomain('tiktok.com'), v::regex('/^@?([-\w\d\.]+)$/i'))" => \MapasCulturais\i::__("O valor deve ser uma URL ou usuário válido.")
+            ),
+            'placeholder' => "nomedousuario",
+            'available_for_opportunities' => true
+        ),
         // DADOS BANCÁRIOS
         'payment_bank_account_type' => array(
             'private' => true,
