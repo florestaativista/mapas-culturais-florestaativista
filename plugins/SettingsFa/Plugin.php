@@ -7,6 +7,15 @@ use SettingsFa\Controller;
 
 class Plugin extends \MapasCulturais\Plugin
 {
+    public function __construct(array $config = [])
+    {
+        $config += [
+            "tag_manager_key" => env("TAG_MANAGER_KEY",""),
+        ];
+
+        parent::__construct($config);
+    }
+
     public function _init()
     {
         $app = App::i();
