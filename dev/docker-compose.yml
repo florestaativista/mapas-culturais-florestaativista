@@ -1,15 +1,15 @@
-version: '2'
+version: "2"
 services:
   mapas:
     build:
       context: ../
       dockerfile: docker/Dockerfile
-      
+
     command: /var/www/dev/start.sh
 
     ports:
       - "80:80"
-    
+
     volumes:
       - ./docker-data/assets:/var/www/html/assets
       - ./docker-data/public-files:/var/www/html/files
@@ -42,10 +42,9 @@ services:
       - db
       - redis
       - mailhog
-  
+
     stdin_open: true
     tty: true
-
 
   redis:
     image: redis:6
@@ -63,7 +62,7 @@ services:
       - ../docker/db:/docker-entrypoint-initdb.d
       - ./docker-data/db-data:/var/lib/postgresql/data
 
-  mailhog: 
+  mailhog:
     image: mailhog/mailhog
     ports:
       - "8025:8025"
