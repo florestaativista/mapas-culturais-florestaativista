@@ -1,5 +1,5 @@
 <?php
-$key = $config["registration_tag_manager_key"];
+$key = $config["tag_registration_manager_key"];
 ?>
 
 <!-- Google tag (gtag.js) -->
