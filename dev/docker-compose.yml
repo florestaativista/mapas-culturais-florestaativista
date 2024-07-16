@@ -20,8 +20,11 @@ services:
       - ./config.d:/var/www/config/local.d
 
       # themes and plugins
-      - ../plugins/SamplePlugin:/var/www/src/plugins/SamplePlugin
       - ../plugins/MultipleLocalAuth:/var/www/src/plugins/MultipleLocalAuth
+      - ../plugins/SettingsFa:/var/www/src/plugins/SettingsFa
+      - ../plugins/Analytics:/var/www/src/plugins/Analytics
+      - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame
+
       - ../themes/FlorestaAtivista:/var/www/src/themes/FlorestaAtivista
       - ../themes/FlorestaAtivista/overrides/agent-types.php:/var/www/src/conf/agent-types.php
       - ../themes/FlorestaAtivista/overrides/space-types.php:/var/www/src/conf/space-types.php
