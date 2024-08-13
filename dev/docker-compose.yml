@@ -15,6 +15,7 @@ services:
       - ./docker-data/public-files:/var/www/html/files
       - ./docker-data/private-files:/var/www/var/private-files
       - ./docker-data/logs:/var/www/var/logs
+      - ../../Mapas7/src:/var/www/src
 
       - ../docker/common/config.d:/var/www/config/common.d
       - ./config.d:/var/www/config/local.d
