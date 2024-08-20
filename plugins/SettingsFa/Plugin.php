@@ -56,7 +56,7 @@ class Plugin extends \MapasCulturais\Plugin
                     $this->part('tag-manager-somdeminas--body', ["config" => $config]);
                 }
             }
-        });
+        }, -10);
     }
 
     public function register()
