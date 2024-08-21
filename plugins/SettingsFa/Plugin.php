@@ -12,8 +12,8 @@ class Plugin extends \MapasCulturais\Plugin
         $config += [
             "tag_manager_key" => env("TAG_MANAGER_KEY", ""),
             "tag_registration_manager_key" => env("TAG_REGISTRATION_MANAGER_KEY", ""),
-            "tag_opportunity_head_somdeminas_manager_key" => env("TAG_OPPORTUNITY_HEAD_SOMDEMINAS_MANAGER_KEY", ""),
-            "tag_opportunity_body_somdeminas_manager_key" => env("TAG_OPPORTUNITY_BODY_SOMDEMINAS_MANAGER_KEY", ""),
+            "tag_manager_pixel_head_key" => env("TAG_MANAGER_PIXEL_HEAD_KEY", ""),
+            "tag_manager_pixel_body_key" => env("TAG_MANAGER_PIXEL_BODY_KEY", ""),
         ];
 
         parent::__construct($config);
@@ -41,20 +41,16 @@ class Plugin extends \MapasCulturais\Plugin
         $app->hook("template(opportunity.<<*>>.head):begin", function () use ($self) {
             $entity = $this->controller->requestedEntity;
             $config = $self->config;
-            if($entity->id == "142") {
-                if ($config['tag_opportunity_head_somdeminas_manager_key']) {
-                    $this->part('tag-manager-somdeminas--head', ["config" => $config]);
-                }
+            if ($config['tag_manager_pixel_head_key']) {
+                $this->part('tag-manager-pixel--head', ["config" => $config]);
             }
         });
 
         $app->hook("template(opportunity.<<*>>.body):begin", function () use ($self) {
             $entity = $this->controller->requestedEntity;
             $config = $self->config;
-            if($entity->id == "142") {
-                if ($config['tag_opportunity_body_somdeminas_manager_key']) {
-                    $this->part('tag-manager-somdeminas--body', ["config" => $config]);
-                }
+            if ($config['tag_manager_pixel_body_key']) {
+                $this->part('tag-manager-pixel--body', ["config" => $config]);
             }
         }, -10);
     }

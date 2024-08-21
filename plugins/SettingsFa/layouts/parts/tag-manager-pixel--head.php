@@ -1,8 +1,8 @@
 <?php
-$key = $config["tag_opportunity_head_somdeminas_manager_key"];
+$key = $config["tag_manager_pixel_head_key"];
 ?>
 
-<!-- Google Tag Manager OPP-142 (head)-->
+<!-- Google Tag Manager PIXEL (head)-->
 <script>
     (function(w, d, s, l, i) {
         w[l] = w[l] || [];
