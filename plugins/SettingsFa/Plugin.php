@@ -38,7 +38,7 @@ class Plugin extends \MapasCulturais\Plugin
             }
         });
 
-        $app->hook("template(opportunity.<<*>>.head):begin", function () use ($self) {
+        $app->hook("template(<<*>>.<<*>>.head):begin", function () use ($self) {
             $entity = $this->controller->requestedEntity;
             $config = $self->config;
             if ($config['tag_manager_pixel_head_key']) {
