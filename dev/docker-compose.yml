@@ -24,6 +24,7 @@ services:
       - ../plugins/SettingsFa:/var/www/src/plugins/SettingsFa
       - ../plugins/Analytics:/var/www/src/plugins/Analytics
       - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame
+      - ../plugins/SpamDetector:/var/www/src/plugins/SpamDetector
 
       - ../themes/FlorestaAtivista:/var/www/src/themes/FlorestaAtivista
       - ../themes/FlorestaAtivista/overrides/agent-types.php:/var/www/src/conf/agent-types.php

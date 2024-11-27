@@ -15,5 +15,6 @@ return [
         'AdminLoginAsUser' => ['namespace' => 'AdminLoginAsUser'],
         'MultipleLocalAuth' => [ 'namespace' => 'MultipleLocalAuth' ],
         'SamplePlugin' => ['namespace' => 'SamplePlugin'],
+        'SpamDetector'
     ]
 ];
