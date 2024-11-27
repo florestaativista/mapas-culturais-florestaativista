@@ -10,6 +10,9 @@ return [
     'app.verifiedSealsIds' => '1',
     'cep.token' => '',
     
+    'app.enabled.events' => false,
+    'app.enabled.projects' => false,
+    
     'slim.debug' => true,
 
     'app.mode' => $_ENV['APP_MODE'],
