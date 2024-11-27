@@ -17,9 +17,6 @@ $this->import('
             <label class="title">
                 <?= $this->text('title', i::__('Aqui você encontra as informações da cultura de sua região!')) ?>
             </label>
-            <label class="description">
-                <?= $this->text('description', i::__('Mas para isso, precisamos da sua ajuda!!! Faça parte você também: cadastre seus projetos, espaços e eventos.')) ?>
-            </label>
         </div>
 
         <div class="home-entities__content--cards">
