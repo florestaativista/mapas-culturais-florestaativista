@@ -49,7 +49,7 @@ touch docker-data/logs/app.log
 
 chown -R www-data: docker-data/assets docker-data/logs docker-data/private-files docker-data/public-files docker-data/saas-files
 
-docker-compose run --service-ports mapas
+docker compose run --service-ports mapas
 
-docker-compose down
+docker compose down
 cd $CDIR
