@@ -52,6 +52,10 @@ class Plugin extends \MapasCulturais\Plugin
             if ($config['tag_manager_pixel_body_key']) {
                 $this->part('tag-manager-pixel--body', ["config" => $config]);
             }
+
+            if ($entity instanceof Opportunity && $entity->id == 366) {
+               $this->part('pixels-meta-opp366', []);
+            }
         }, -10);
     }
 
