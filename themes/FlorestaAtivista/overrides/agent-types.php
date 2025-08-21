@@ -44,13 +44,14 @@ return array(
             'label' => 'Pessoa com deficiência',
             'type' => 'multiselect',
             'options' => [
-                '' => MapasCulturais\i::__('Não sou'),
+                MapasCulturais\i::__('Não sou'),
                 MapasCulturais\i::__('Visual'),
                 MapasCulturais\i::__('Mental'),
                 MapasCulturais\i::__('Física'),
                 MapasCulturais\i::__('Auditiva'),
             ],
-            'available_for_opportunities' => true
+                
+            'available_for_opportunities' => true,
         ),
 
         'comunidadesTradicional' => array(
