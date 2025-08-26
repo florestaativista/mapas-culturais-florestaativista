@@ -1,9 +1,63 @@
 <?php
 
 use MapasCulturais\Utils;
+
 /**
  * See https://github.com/Respect/Validation to know how to write validations
  */
+
+function compareNamesOpportunity($item1, $item2)
+{
+    return strcmp($item1['name'], $item2['name']);
+}
+
+$items = array(
+    7 =>  array('name' => \MapasCulturais\i::__("Ciclo")),
+    26 => array('name' => \MapasCulturais\i::__("Conferência Pública Setorial")),
+    27 => array('name' => \MapasCulturais\i::__("Conferência Pública Nacional")),
+    28 => array('name' => \MapasCulturais\i::__("Conferência Pública Estadual")),
+    29 => array('name' => \MapasCulturais\i::__("Conferência Pública Municipal")),
+    10 => array('name' => \MapasCulturais\i::__("Concurso")),
+    6 =>  array('name' => \MapasCulturais\i::__("Convenção")),
+    19 => array('name' => \MapasCulturais\i::__("Congresso")),
+    23 => array('name' => \MapasCulturais\i::__("Curso")),
+    9 =>  array('name' => \MapasCulturais\i::__("Edital")),
+    11 => array('name' => \MapasCulturais\i::__("Exposição")),
+    2 =>  array('name' => \MapasCulturais\i::__("Encontro")),
+    13 => array('name' => \MapasCulturais\i::__("Exibição")),
+    1 =>  array('name' => \MapasCulturais\i::__("Festival")),
+    16 => array('name' => \MapasCulturais\i::__("Festa Popular")),
+    17 => array('name' => \MapasCulturais\i::__("Festa Religiosa")),
+    14 => array('name' => \MapasCulturais\i::__("Feira")),
+    22 => array('name' => \MapasCulturais\i::__("Fórum")),
+    15 => array('name' => \MapasCulturais\i::__("Intercâmbio Cultural")),
+    25 => array('name' => \MapasCulturais\i::__("Jornada")),
+    12 => array('name' => \MapasCulturais\i::__("Jornada")),
+    5 =>  array('name' => \MapasCulturais\i::__("Mostra")),
+    24 => array('name' => \MapasCulturais\i::__("Oficina")),
+    20 => array('name' => \MapasCulturais\i::__("Palestra")),
+    8 =>  array('name' => \MapasCulturais\i::__("Programa")),
+    4 =>  array('name' => \MapasCulturais\i::__("Reunião")),
+    3 =>  array('name' => \MapasCulturais\i::__("Sarau")),
+    21 => array('name' => \MapasCulturais\i::__("Simpósio")),
+    18 => array('name' => \MapasCulturais\i::__("Seminário")),
+    //        30 => array( 'name' => \MapasCulturais\i::__("Parada e Desfile Militar")),
+    //        31 => array( 'name' => \MapasCulturais\i::__("Parada e Desfile Cívico")),
+    //        32 => array( 'name' => \MapasCulturais\i::__("Parada e Desfile Festivo")),
+    //        33 => array( 'name' => \MapasCulturais\i::__("Parada e Desfile Político")),
+    //        34 => array( 'name' => \MapasCulturais\i::__("Parada e Desfile de Ações Afirmativas")),
+
+    // tipos não existentes em projetos
+    40 => array('name' => \MapasCulturais\i::__("Abaixo-assinado")),
+    41 => array('name' => \MapasCulturais\i::__("Campanhas")),
+    42 => array('name' => \MapasCulturais\i::__("Pesquisa")),
+    43 => array('name' => \MapasCulturais\i::__("Oportunidade de trabalho")),
+    44 => array('name' => \MapasCulturais\i::__("Outros eventos")),
+    45 => array('name' => \MapasCulturais\i::__("Outros tipos de inscrição")),
+);
+
+uasort($items, 'compareNamesOpportunity');
+
 return array(
     'metadata' => array(
 
@@ -167,6 +221,7 @@ return array(
         'projectName' => array(
             'label' => \MapasCulturais\i::__('Nome do Projeto'),
             'type' => 'select',
+            'default' => '0',
             'options' => (object) array(
                 '0' => \MapasCulturais\i::__('Não Utilizar'),
                 '1' => \MapasCulturais\i::__('Opcional'),
@@ -177,9 +232,34 @@ return array(
                 return intval($val);
             }
         ),
+
+        'totalResource' => array(
+            'type' => 'float',
+            'field_type' => 'currency',
+            'label' => \MapasCulturais\i::__('Valor total'),
+            // 'description' => \MapasCulturais\i::__("Valor total que esse edital irá disponibilizar."),
+        ),
+
+        'vacancies' => array(
+            'type' => 'integer',
+            'label' => \MapasCulturais\i::__('Total de vagas'),
+            // 'description' => \MapasCulturais\i::__("Quantidades de vagas que esse edital irá disponibilizar."),
+        ),
+
+        'isModel' => array(
+            'type' => 'integer',
+            'label' => \MapasCulturais\i::__('É modelo?'),
+            'default_value' => 0
+        ),
+        'isModelPublic' => array(
+            'type' => 'integer',
+            'label' => \MapasCulturais\i::__('É modelo público?'),
+        ),
+
         'requestAgentAvatar' => array(
             'label' => \MapasCulturais\i::__('Solicitar avatar'),
             'type' => 'radio',
+            'default' => '0',
             'options' => (object) array(
                 '0' => \MapasCulturais\i::__('Não Utilizar'),
                 '1' => \MapasCulturais\i::__('Obrigatório'),
@@ -187,6 +267,16 @@ return array(
             'unserialize' => function($value) {
                return ($value == 0 || $value == "") ? false : true;
             }
+        ),
+        'isModel' => array(
+            'type' => 'integer',
+            'label' => \MapasCulturais\i::__('É modelo?'),
+            'default_value' => 0
+        ),
+
+        'isModelPublic' => array(
+            'type' => 'integer',
+            'label' => \MapasCulturais\i::__('É modelo público?'),
         ),
     ),
     'items' => array(
