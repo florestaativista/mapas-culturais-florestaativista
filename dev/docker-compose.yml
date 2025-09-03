@@ -33,6 +33,8 @@ services:
       - ../themes/FlorestaAtivista/overrides/opportunity-types.php:/var/www/src/conf/opportunity-types.php
       - ../themes/FlorestaAtivista/overrides/taxonomies.php:/var/www/src/conf/taxonomies.php
       - ../themes/FlorestaAtivista/translations/replacements:/var/www/src/translations/replacements
+      - ../themes/FlorestaAtivista/questions/pt_BR/cadastro/configuracoes-entidades/localizacao-publica.md:/var/www/src/modules/FAQ/questions/pt_BR/cadastro/configuracoes-entidades/localizacao-publica.md
+      - ../themes/FlorestaAtivista/questions/es_ES/cadastro/configuracoes-entidades/localizacao-publica.md:/var/www/src/modules/FAQ/questions/es_ES/cadastro/configuracoes-entidades/localizacao-publica.md
 
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
