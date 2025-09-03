@@ -7,8 +7,8 @@ $_config = [
     'text:agent.edit.brasil-address-form.brasil-address' => i::__("Apareça no Mapa"),
     'text:agent.*.international-address-form.international-address-forms' => i::__("Apareça no Mapa"),
     'text:main-footer.main-footer' => i::__("oportunidades"),
-    'text:agent.edit.view(edit-1).edit-1-agent-phone1' => i::__("Telefone 1"),
-    'text:agent.edit.view(edit-1).edit-1-agent-phone2' => i::__("Telefone 2"),
+    'text:agent.edit.view(edit-1).edit-1-agent-phone1' => i::__("Telefone privado 1"),
+    'text:agent.edit.view(edit-1).edit-1-agent-phone2' => i::__("Telefone privado 2"),
 ];
 
 return $_config;
