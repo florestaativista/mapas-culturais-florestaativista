@@ -16,6 +16,9 @@
 [submodule "plugins/LocationPatch"]
 	path = plugins/LocationPatch
 	url = https://github.com/mapasculturais/plugin-LocationPatch.git
+[submodule "plugins/PluginSOM"]
+	path = plugins/PluginSOM
+	url = https://github.com/florestaativista/plugin-mapas-som.vc.git
 [submodule "themes/SOM"]
 	path = themes/SOM
 	url = https://github.com/florestaativista/theme-SOM.git
