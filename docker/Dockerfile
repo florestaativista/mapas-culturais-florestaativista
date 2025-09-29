@@ -1,4 +1,4 @@
-FROM hacklab/mapasculturais:7.6.6-RC
+FROM hacklab/mapasculturais:v7.6.9
 
 COPY themes /var/www/src/themes
 COPY plugins /var/www/src/plugins
@@ -10,6 +10,8 @@ COPY themes/FlorestaAtivista/overrides/opportunity-types.php /var/www/src/conf/o
 COPY themes/FlorestaAtivista/overrides/taxonomies.php /var/www/src/conf/taxonomies.php
 COPY themes/FlorestaAtivista/questions/pt_BR/cadastro/configuracoes-entidades/localizacao-publica.md /var/www/src/modules/FAQ/questions/pt_BR/cadastro/configuracoes-entidades/localizacao-publica.md
 COPY themes/FlorestaAtivista/questions/es_ES/cadastro/configuracoes-entidades/localizacao-publica.md /var/www/src/modules/FAQ/questions/es_ES/cadastro/configuracoes-entidades/localizacao-publica.md
+
+COPY docker/em-breve /var/www/public/em-breve
 
 WORKDIR /var/www/src
 RUN pnpm install --recursive && pnpm run build 
