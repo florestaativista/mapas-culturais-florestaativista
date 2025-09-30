@@ -11,7 +11,7 @@ COPY themes/FlorestaAtivista/overrides/taxonomies.php /var/www/src/conf/taxonomi
 COPY themes/FlorestaAtivista/questions/pt_BR/cadastro/configuracoes-entidades/localizacao-publica.md /var/www/src/modules/FAQ/questions/pt_BR/cadastro/configuracoes-entidades/localizacao-publica.md
 COPY themes/FlorestaAtivista/questions/es_ES/cadastro/configuracoes-entidades/localizacao-publica.md /var/www/src/modules/FAQ/questions/es_ES/cadastro/configuracoes-entidades/localizacao-publica.md
 
-COPY docker/em-breve /var/www/public/em-breve
+COPY docker/production/em-breve /var/www/public/em-breve
 
 WORKDIR /var/www/src
 RUN pnpm install --recursive && pnpm run build 
