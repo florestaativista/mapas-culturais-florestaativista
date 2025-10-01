@@ -16,5 +16,6 @@ return [
         'scope' => env('AUTH_AUTHENTIK_SCOPE', ''),
         'login_url' => env('AUTH_AUTHENTIK_LOGIN_URL', ''),
         'logout_url' => env('AUTH_AUTHENTIK_LOGOUT_URL', ''),
+        'change_password_url' => env('AUTH_AUTHENTIK_CHANGE_PASSWORD_URL', null),
     ]
 ];
