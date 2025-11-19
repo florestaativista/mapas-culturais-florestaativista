@@ -22,3 +22,6 @@
 [submodule "themes/SOM"]
 	path = themes/SOM
 	url = https://github.com/florestaativista/theme-SOM.git
+[submodule "plugins/Zammad"]
+	path = plugins/Zammad
+	url = https://github.com/mapasculturais/plugin-Zammad
