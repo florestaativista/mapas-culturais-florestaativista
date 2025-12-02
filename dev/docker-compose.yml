@@ -27,7 +27,6 @@ services:
       - ../plugins/SpamDetector:/var/www/src/plugins/SpamDetector
       - ../plugins/PluginSOM:/var/www/src/plugins/PluginSOM
 
-      - ../core/src/themes/BaseV2:/var/www/src/themes/BaseV2
       - ../themes/SOM:/var/www/src/themes/SOM
       - ../themes/FlorestaAtivista:/var/www/src/themes/FlorestaAtivista
       - ../themes/FlorestaAtivista/overrides/agent-types.php:/var/www/src/conf/agent-types.php
