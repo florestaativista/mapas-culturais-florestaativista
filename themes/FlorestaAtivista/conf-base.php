@@ -9,6 +9,7 @@ $_config = [
     'text:main-footer.main-footer' => i::__("oportunidades"),
     'text:agent.edit.view(edit-1).edit-1-agent-phone1' => i::__("Telefone privado 1"),
     'text:agent.edit.view(edit-1).edit-1-agent-phone2' => i::__("Telefone privado 2"),
+    'footer.supportMessage' => sprintf(i::__("Precisa de ajuda? Acesse o chat no rodapé da página ou envie um email para %s para falar com nossa equipe de suporte."), '<a href="mail:contato@florestaativista.org">contato@florestaativista.org</a>')
 ];
 
 return $_config;
