@@ -47,6 +47,7 @@ return array(
             i::__('Educação e Formação'),
             i::__('Esporte'),
             i::__('História e Filosofia'),
+            i::__('Hospedagem Solidária'),
             i::__('Fotografia'),
             i::__('Alimentação'),
             i::__('Gestão Cultural'),
