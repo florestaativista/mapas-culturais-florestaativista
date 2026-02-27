@@ -19,7 +19,8 @@ services:
       - ../docker/common/config.d:/var/www/config/common.d
       - ./config.d:/var/www/config/local.d
 
-      # themes and plugins
+      
+      W# themes and plugins
       - ../plugins/MultipleLocalAuth:/var/www/src/plugins/MultipleLocalAuth
       - ../plugins/SettingsFa:/var/www/src/plugins/SettingsFa
       - ../plugins/Analytics:/var/www/src/plugins/Analytics
