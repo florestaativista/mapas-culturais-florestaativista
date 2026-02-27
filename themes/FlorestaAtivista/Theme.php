@@ -38,6 +38,11 @@ class Theme extends \MapasCulturais\Themes\BaseV2\Theme {
             $iconset['hand'] = 'ion:hand-right';
         });
 
+        // Define filtro inicial para buscas de agentes (apenas com avatar)
+        $app->hook('search-agents-initial-pseudo-query', function (&$initial_pseudo_query) {
+            $initial_pseudo_query['avatar'] = 1;
+        });
+
         // Alterar filtro da página de pesquisa de comunidades
         $app->hook("component(search-filter-agent):before", function(&$data, &$template) {
             if($this->controller->action === "communities") {
