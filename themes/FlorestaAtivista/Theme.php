@@ -43,6 +43,13 @@ class Theme extends \MapasCulturais\Themes\BaseV2\Theme {
             $initial_pseudo_query['avatar'] = 1;
         });
 
+        // Adiciona checkbox de filtro por avatar na busca de agentes
+        $app->hook('template(search.agents.search-filter-agent):begin', function() {
+            if ($this->controller->action === 'agents') {
+                $this->part('search-filter-avatar');
+            }
+        });
+
         // Alterar filtro da página de pesquisa de comunidades
         $app->hook("component(search-filter-agent):before", function(&$data, &$template) {
             if($this->controller->action === "communities") {
