@@ -67,5 +67,39 @@ class Theme extends \MapasCulturais\Themes\BaseV2\Theme {
         $app->hook('mapasculturais.body:after', function() use ($app) {
             $this->part('theme-css');
         });
+
+
+        $app->hook("app.init:after", function () use ($app) {
+            $agent_class = 'MapasCulturais\Entities\Agent';
+            $required_all_types = $app->config['agent_required_fields'] ?? [];
+            $required_type_1 = $app->config['agent1_required_fields'] ?? [];
+
+            foreach ($app->getRegisteredEntityTypes($agent_class) as $type) {
+                if (!$type) {
+                    continue;
+                }
+
+                $metadata = $app->getRegisteredMetadata($agent_class, $type->id);
+                $required_fields = $required_all_types;
+
+                if ((int) $type->id === 1) {
+                    foreach ($required_type_1 as $field => $is_required) {
+                        $base = $required_fields[$field] ?? false;
+                        $required_fields[$field] = (bool) $base || (bool) $is_required;
+                    }
+                }
+
+                foreach ($required_fields as $field => $is_required) {
+                    if (isset($metadata[$field])) {
+                        $metadata[$field]->is_required = (bool) $is_required;
+                        if ((bool) $is_required) {
+                            $metadata[$field]->is_required_error_message = \MapasCulturais\i::__('Este campo é obrigatório.');
+                        } else {
+                            $metadata[$field]->is_required_error_message = '';
+                        }
+                    }
+                }
+            }
+        });
     }
 }
