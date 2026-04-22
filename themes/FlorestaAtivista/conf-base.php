@@ -25,6 +25,7 @@ $_config = [
         'En_Municipio' => true,
     ],
     'agent1_required_fields' => [],
+    'app.redirect_profile_validate' => true,
 ];
 
 return $_config;
