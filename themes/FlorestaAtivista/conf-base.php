@@ -21,8 +21,6 @@ $_config = [
     ],
     'agent_required_fields' => [
         'emailPrivado' => true,
-        'En_Estado' => true,
-        'En_Municipio' => true,
     ],
     'agent1_required_fields' => [],
     'app.redirect_profile_validate' => true,
