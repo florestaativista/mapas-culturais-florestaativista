@@ -28,7 +28,7 @@ return array(
             'label' => \MapasCulturais\i::__('Escolaridade'),
             'type' => 'select',
             'options' => array(
-               '' => MapasCulturais\i::__('Não Informar'),
+               'Não Informar' => MapasCulturais\i::__('Não Informar'),
                 MapasCulturais\i::__('Fundamental Incompleto'),
                 MapasCulturais\i::__('Fundamental Completo'),
                 MapasCulturais\i::__('Médio Incompleto'),
@@ -62,7 +62,7 @@ return array(
             'label' => \MapasCulturais\i::__('Comunidades tradicionais'),
             'type' => 'select',
             'options' => array(
-                '' => \MapasCulturais\i::__('Não pertenço'),
+                'Não pertenço' => \MapasCulturais\i::__('Não pertenço'),
                 MapasCulturais\i::__('Comunidade extrativista'),
                 MapasCulturais\i::__('Comunidade ribeirinha'),
                 MapasCulturais\i::__('Comunidade rural'),
@@ -187,7 +187,7 @@ return array(
             'label' => \MapasCulturais\i::__('CNH - Categoria'),
             'type' => 'multiselect',
             'options' => array(
-                '' => \MapasCulturais\i::__('Não informado'),
+                'Não informado' => \MapasCulturais\i::__('Não informado'),
                 'A' => \MapasCulturais\i::__('A'),
                 'B' => \MapasCulturais\i::__('B'),
                 'C' => \MapasCulturais\i::__('C'),
@@ -266,7 +266,7 @@ return array(
             'label' => \MapasCulturais\i::__('Raça/cor'),
             'type' => 'select',
             'options' => array(
-                '' => \MapasCulturais\i::__('Não informado'),
+                'Não informado' => \MapasCulturais\i::__('Não informado'),
                 'Branca' => \MapasCulturais\i::__('Branca'),
                 'Preta' => \MapasCulturais\i::__('Preta'),
                 'Amarela' => \MapasCulturais\i::__('Amarela'),
@@ -321,7 +321,7 @@ return array(
             'label' => \MapasCulturais\i::__('Localização'),
             'type' => 'select',
             'options' => array(
-                '' => \MapasCulturais\i::__('Não Informar'),
+                'Não Informar' => \MapasCulturais\i::__('Não Informar'),
                 'Pública' => \MapasCulturais\i::__('Pública'),
                 'Privada' => \MapasCulturais\i::__('Privada')
             )
@@ -398,7 +398,7 @@ return array(
             'label' => \MapasCulturais\i::__('Agente Itinerante'),
             'type' => 'select',
             'options' => array(
-                '' => \MapasCulturais\i::__('Não Informado'),
+                'Não Informado' => \MapasCulturais\i::__('Não Informado'),
                 'Sim' => \MapasCulturais\i::__('Sim'),
                 'Não' => \MapasCulturais\i::__('Não'),
             ),
