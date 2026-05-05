@@ -9,6 +9,9 @@ $_config = [
     'text:main-footer.main-footer' => i::__("oportunidades"),
     'text:agent.edit.view(edit-1).edit-1-agent-phone1' => i::__("Telefone privado 1"),
     'text:agent.edit.view(edit-1).edit-1-agent-phone2' => i::__("Telefone privado 2"),
+    'text:site.index.home-opportunities.title' => i::__("Oportunidades"),
+    'text:site.index.home-opportunities.description' => i::__('Cadastre-se, participe das oportunidades abertas e crie as suas próprias ações na plataforma'),
+    'text:site.index.home-entities.title' => i::__('Encontre informações, navegue pela plataforma e se conecte-se com a Floresta'),
     'footer.supportMessage' => sprintf(i::__("Precisa de ajuda? Acesse o chat no rodapé da página ou envie um email para %s para falar com nossa equipe de suporte."), '<a href="mail:suporte@florestaativista.org">suporte@florestaativista.org</a>'),
     "module.Entities" => [
         'requiredAvatar' => [
