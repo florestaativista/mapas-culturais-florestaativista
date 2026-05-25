@@ -19,6 +19,6 @@ return [
     // Define link para o menu de notícias no site
     'app.menu.noticies.link' => env('MENU_NOTICIES_LINK','https://florestaativista.org/'),
 
-    'app.enabled.events' => false,
+    'app.enabled.events' => true,
     'app.enabled.projects' => false,
 ];
