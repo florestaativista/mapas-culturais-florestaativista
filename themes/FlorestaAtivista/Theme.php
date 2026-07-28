@@ -18,6 +18,14 @@ class Theme extends \MapasCulturais\Themes\BaseV2\Theme {
 
         $this->enqueueStyle("app-v2", "home-logo-strip", "css/home-logo-strip.css");
 
+        // Redireciona para a página de edição da oportunidade 810
+        $app->hook('GET(opportunity.single):before', function () use ($app) {
+            $id = (int) ($this->data['id'] ?? 0);
+            if ($id === 683) {
+                $app->redirect($app->createUrl('opportunity', 'single', [810]) . '#info');
+            }
+        });
+
         // Cria endpoint para carregar as comunidades
         $app->hook('GET(search.communities)', function() use ($app) {
             $this->render('communities');
