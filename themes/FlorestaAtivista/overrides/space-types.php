@@ -1,4 +1,49 @@
 <?php
+
+$__missing_i18n = [
+    'Academia' => ['es_ES' => 'Academia', 'en_US' => 'Academy'],
+    'Aldeia' => ['es_ES' => 'Aldea', 'en_US' => 'Village'],
+    'Bar' => ['es_ES' => 'Bar', 'en_US' => 'Bar'],
+    'Café' => ['es_ES' => 'Café', 'en_US' => 'Café'],
+    'Casa Coletiva' => ['es_ES' => 'Casa Colectiva', 'en_US' => 'Collective house'],
+    'Casa de Shows' => ['es_ES' => 'Casa de conciertos', 'en_US' => 'Concert venue'],
+    'Coworking' => ['es_ES' => 'Coworking', 'en_US' => 'Coworking'],
+    'Eco vila' => ['es_ES' => 'Ecoaldea', 'en_US' => 'Ecovillage'],
+    'Escola livre' => ['es_ES' => 'Escuela libre', 'en_US' => 'Free school'],
+    'Escola particular' => ['es_ES' => 'Escuela particular', 'en_US' => 'Private school'],
+    'Escola pública' => ['es_ES' => 'Escuela pública', 'en_US' => 'Public school'],
+    'Escritório' => ['es_ES' => 'Oficina', 'en_US' => 'Office'],
+    'Estacionamento' => ['es_ES' => 'Estacionamiento', 'en_US' => 'Parking lot'],
+    'Estúdio de Fotografia' => ['es_ES' => 'Estudio fotográfico', 'en_US' => 'Photography studio'],
+    'Estúdio de Gravação e/ou Ensaio' => ['es_ES' => 'Estudio de grabación y/o ensayo', 'en_US' => 'Recording and/or rehearsal studio'],
+    'Estúdio de Pintura/Artes Plásticas' => ['es_ES' => 'Estudio de pintura/artes plásticas', 'en_US' => 'Painting/visual arts studio'],
+    'Food truck' => ['es_ES' => 'Food truck', 'en_US' => 'Food truck'],
+    'Físico' => ['es_ES' => 'Físico', 'en_US' => 'Physical'],
+    'Galpão' => ['es_ES' => 'Galpón', 'en_US' => 'Warehouse'],
+    'Hacker space' => ['es_ES' => 'Hacker space', 'en_US' => 'Hackerspace'],
+    'Hostel' => ['es_ES' => 'Hostel', 'en_US' => 'Hostel'],
+    'Hotel' => ['es_ES' => 'Hotel', 'en_US' => 'Hotel'],
+    'Hub de Inovação' => ['es_ES' => 'Hub de innovación', 'en_US' => 'Innovation hub'],
+    'Labs' => ['es_ES' => 'Labs', 'en_US' => 'Labs'],
+    'Loja' => ['es_ES' => 'Tienda', 'en_US' => 'Store'],
+    'O valor deve ser uma URL válida do Spotify ou um identificador válido.' => ['es_ES' => 'El valor debe ser una URL válida de Spotify o un identificador válido.', 'en_US' => 'The value must be a valid Spotify URL or a valid identifier.'],
+    'O valor deve ser uma URL válida ou o nome ou id do usuário.' => ['es_ES' => 'El valor debe ser una URL válida o el nombre o id del usuario.', 'en_US' => 'The value must be a valid URL or the user\'s name or id.'],
+    'Plataforma Digital' => ['es_ES' => 'Plataforma Digital', 'en_US' => 'Digital platform'],
+    'Pousada' => ['es_ES' => 'Posada', 'en_US' => 'Inn'],
+    'Restaurante' => ['es_ES' => 'Restaurante', 'en_US' => 'Restaurant'],
+    'Salão de Beleza' => ['es_ES' => 'Salón de belleza', 'en_US' => 'Beauty salon'],
+    'Teatro de Arena' => ['es_ES' => 'Teatro de Arena', 'en_US' => 'Arena theater'],
+    'URL ou identificador do Spotify' => ['es_ES' => 'URL o identificador de Spotify', 'en_US' => 'Spotify URL or identifier'],
+    'Universidade livre' => ['es_ES' => 'Universidad libre', 'en_US' => 'Free university'],
+    'Universidade particular' => ['es_ES' => 'Universidad particular', 'en_US' => 'Private university'],
+    'Universidade pública' => ['es_ES' => 'Universidad pública', 'en_US' => 'Public university'],
+    'Virtual' => ['es_ES' => 'Virtual', 'en_US' => 'Virtual'],
+    'Virtual ou físico' => ['es_ES' => 'Virtual o físico', 'en_US' => 'Virtual or physical'],
+];
+$__mtr_lcode = \MapasCulturais\i::get_locale();
+$__mtr = function (string $pt) use ($__missing_i18n, $__mtr_lcode) {
+    return $__missing_i18n[$pt][$__mtr_lcode] ?? $pt;
+};
 use MapasCulturais\i;
 use MapasCulturais\Utils;
 /**
@@ -71,11 +116,11 @@ return array(
 
         /*
         'virtual_fisico' => array(
-            'label' => i::__('Virtual ou físico'),
+            'label' => $__mtr('Virtual ou físico'),
             'type' => 'select',
             'options' => array(
-                '' => i::__('Físico'),
-                'virtual' => i::__('Virtual')
+                '' => $__mtr('Físico'),
+                'virtual' => $__mtr('Virtual')
             )
         ),
         */
@@ -203,7 +248,7 @@ return array(
                 return Utils::parseSocialMediaUser('facebook.com', $value);
             },
             'validations' => array(
-                "v::oneOf(v::urlDomain('facebook.com'), v::regex('/^@?([-\w\d\.]+)$/i'))" => i::__("O valor deve ser uma URL válida ou o nome ou id do usuário.")
+                "v::oneOf(v::urlDomain('facebook.com'), v::regex('/^@?([-\w\d\.]+)$/i'))" => $__mtr("O valor deve ser uma URL válida ou o nome ou id do usuário.")
             ),
             'placeholder' => "nomedousuario ou iddousuario",
             'available_for_opportunities' => true
@@ -264,12 +309,12 @@ return array(
             'type' => "socialMedia",
             'label' => \MapasCulturais\i::__('Spotify'),
             'validations' => array(
-                "v::oneOf(v::urlDomain('open.spotify.com'), v::regex('/^([a-zA-Z0-9]+|(user|artist|playlist|show|album|track):[a-zA-Z0-9]+)$/i'))" => \MapasCulturais\i::__("O valor deve ser uma URL válida do Spotify ou um identificador válido.")
+                "v::oneOf(v::urlDomain('open.spotify.com'), v::regex('/^([a-zA-Z0-9]+|(user|artist|playlist|show|album|track):[a-zA-Z0-9]+)$/i'))" => $__mtr("O valor deve ser uma URL válida do Spotify ou um identificador válido.")
             ),
             'serialize' => function($value) {
                 return Utils::parseSocialMediaUser('open.spotify.com', $value);
             },
-            'placeholder' => \MapasCulturais\i::__('URL ou identificador do Spotify'),
+            'placeholder' => $__mtr('URL ou identificador do Spotify'),
             'available_for_opportunities' => true
         ),
         'youtube' => array(
@@ -384,7 +429,7 @@ return array(
                 110 => array( 'name' => i::__('Estúdio')),
                 111 => array( 'name' => i::__('Concha acústica')),
                 113 => array( 'name' => i::__('Espaço para Eventos')),
-                114 => array( 'name' => i::__('Coworking')),
+                114 => array( 'name' => $__mtr('Coworking')),
                 116 => array( 'name' => i::__('Centro Comunitário')),
                 125 => array( 'name' => i::__('Ponto de Cultura')),
                 119 => array( 'name' => i::__('Praça dos esportes e da cultura') ),
@@ -415,7 +460,7 @@ return array(
        i::__('Escolas livres') => array(
             'range' => array(800,899),
             'items' => array(
-                800 => array( 'name' => i::__('Escola livre')),
+                800 => array( 'name' => $__mtr('Escola livre')),
               )
         ),
 
@@ -434,36 +479,36 @@ return array(
             'range' => array(500,600),
             'items' => array(
                 501 => array( 'name' => i::__('Palco de Rua')),
-                502 => array( 'name' => i::__('Bar')),
-                503 => array( 'name' => i::__('Café')),
-                504 => array( 'name' => i::__('Academia')),
-                505 => array( 'name' => i::__('Casa Coletiva')),
-                506 => array( 'name' => i::__('Casa de Shows')),
-                507 => array( 'name' => i::__('Escritório')),
-                508 => array( 'name' => i::__('Estacionamento')),
-                509 => array( 'name' => i::__('Estúdio de Fotografia')),
-                510 => array( 'name' => i::__('Estúdio de Gravação e/ou Ensaio')),
-                511 => array( 'name' => i::__('Estúdio de Pintura/Artes Plásticas')),
-                512 => array( 'name' => i::__('Food truck')),
-                513 => array( 'name' => i::__('Galpão')),
-                514 => array( 'name' => i::__('Hacker space')),
-                515 => array( 'name' => i::__('Hostel')),
-                516 => array( 'name' => i::__('Hotel')),
-                517 => array( 'name' => i::__('Hub de Inovação')),
-                518 => array( 'name' => i::__('Labs')),
-                520 => array( 'name' => i::__('Loja')),
-                521 => array( 'name' => i::__('Plataforma Digital')),
-                522 => array( 'name' => i::__('Pousada')),
-                523 => array( 'name' => i::__('Restaurante')),
-                524 => array( 'name' => i::__('Salão de Beleza')),
-                525 => array( 'name' => i::__('Teatro de Arena')),
-                526 => array( 'name' => i::__('Universidade livre')),
-                527 => array( 'name' => i::__('Escola pública')),
-                528 => array( 'name' => i::__('Escola particular')),
-                529 => array( 'name' => i::__('Universidade pública')),
-                530 => array( 'name' => i::__('Universidade particular')),
-                531 => array( 'name' => i::__('Aldeia')),
-                532 => array( 'name' => i::__('Eco vila')),
+                502 => array( 'name' => $__mtr('Bar')),
+                503 => array( 'name' => $__mtr('Café')),
+                504 => array( 'name' => $__mtr('Academia')),
+                505 => array( 'name' => $__mtr('Casa Coletiva')),
+                506 => array( 'name' => $__mtr('Casa de Shows')),
+                507 => array( 'name' => $__mtr('Escritório')),
+                508 => array( 'name' => $__mtr('Estacionamento')),
+                509 => array( 'name' => $__mtr('Estúdio de Fotografia')),
+                510 => array( 'name' => $__mtr('Estúdio de Gravação e/ou Ensaio')),
+                511 => array( 'name' => $__mtr('Estúdio de Pintura/Artes Plásticas')),
+                512 => array( 'name' => $__mtr('Food truck')),
+                513 => array( 'name' => $__mtr('Galpão')),
+                514 => array( 'name' => $__mtr('Hacker space')),
+                515 => array( 'name' => $__mtr('Hostel')),
+                516 => array( 'name' => $__mtr('Hotel')),
+                517 => array( 'name' => $__mtr('Hub de Inovação')),
+                518 => array( 'name' => $__mtr('Labs')),
+                520 => array( 'name' => $__mtr('Loja')),
+                521 => array( 'name' => $__mtr('Plataforma Digital')),
+                522 => array( 'name' => $__mtr('Pousada')),
+                523 => array( 'name' => $__mtr('Restaurante')),
+                524 => array( 'name' => $__mtr('Salão de Beleza')),
+                525 => array( 'name' => $__mtr('Teatro de Arena')),
+                526 => array( 'name' => $__mtr('Universidade livre')),
+                527 => array( 'name' => $__mtr('Escola pública')),
+                528 => array( 'name' => $__mtr('Escola particular')),
+                529 => array( 'name' => $__mtr('Universidade pública')),
+                530 => array( 'name' => $__mtr('Universidade particular')),
+                531 => array( 'name' => $__mtr('Aldeia')),
+                532 => array( 'name' => $__mtr('Eco vila')),
             )
         ),
     )

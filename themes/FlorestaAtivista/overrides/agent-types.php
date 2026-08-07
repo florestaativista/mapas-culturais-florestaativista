@@ -1,5 +1,63 @@
 <?php
 
+$__missing_i18n = [
+    'Agência bancária para pagamentos' => ['es_ES' => 'Agencia bancaria para pagos', 'en_US' => 'Bank branch for payments'],
+    'Agênero' => ['es_ES' => 'Agénero', 'en_US' => 'Agender'],
+    'Comunidade extrativista' => ['es_ES' => 'Comunidad extractivista', 'en_US' => 'Extractivist community'],
+    'Comunidade ribeirinha' => ['es_ES' => 'Comunidad ribereña', 'en_US' => 'Riverside community'],
+    'Comunidade rural' => ['es_ES' => 'Comunidad rural', 'en_US' => 'Rural community'],
+    'Comunidades de pescadores(as) artesanais' => ['es_ES' => 'Comunidades de pescadores artesanales', 'en_US' => 'Artisanal fishing communities'],
+    'Conta Poupança' => ['es_ES' => 'Cuenta de ahorros', 'en_US' => 'Savings account'],
+    'Conta corrente' => ['es_ES' => 'Cuenta corriente', 'en_US' => 'Checking account'],
+    'Dígito verificador da agéncia bancária' => ['es_ES' => 'Dígito verificador de la agencia bancaria', 'en_US' => 'Bank branch check digit'],
+    'Dígito verificador da conta bancária' => ['es_ES' => 'Dígito verificador de la cuenta bancaria', 'en_US' => 'Bank account check digit'],
+    'Fluido' => ['es_ES' => 'Fluido', 'en_US' => 'Fluid'],
+    'Fundamental Completo' => ['es_ES' => 'Educación Básica Completa', 'en_US' => 'Elementary School Completed'],
+    'Fundamental Incompleto' => ['es_ES' => 'Educación Básica Incompleta', 'en_US' => 'Elementary School Incomplete'],
+    'Homem Cis' => ['es_ES' => 'Hombre Cis', 'en_US' => 'Cisgender man'],
+    'Homem Trans' => ['es_ES' => 'Hombre Trans', 'en_US' => 'Transgender man'],
+    'Homossexual' => ['es_ES' => 'Homosexual', 'en_US' => 'Homosexual'],
+    'Intersexual' => ['es_ES' => 'Intersexual', 'en_US' => 'Intersex'],
+    'Marrom' => ['es_ES' => 'Marrón', 'en_US' => 'Brown'],
+    'Mulher Cis' => ['es_ES' => 'Mujer Cis', 'en_US' => 'Cisgender woman'],
+    'Mulher Trans ' => ['es_ES' => 'Mujer Trans', 'en_US' => 'Transgender woman'],
+    'Médio Completo' => ['es_ES' => 'Educación Media Completa', 'en_US' => 'High School Completed'],
+    'Médio Incompleto' => ['es_ES' => 'Educación Media Incompleta', 'en_US' => 'High School Incomplete'],
+    'Nome completo ou Razão Social' => ['es_ES' => 'Nombre completo o Razón Social', 'en_US' => 'Full name or Company name'],
+    'Não Informar' => ['es_ES' => 'No informar', 'en_US' => 'Do not inform'],
+    'Não sou Pessoa com Deficiência' => ['es_ES' => 'No soy Persona con Discapacidad', 'en_US' => 'I am not a Person with Disability'],
+    'Não-binário' => ['es_ES' => 'No binario', 'en_US' => 'Non-binary'],
+    'Número da conta bancária para pagamentos' => ['es_ES' => 'Número de cuenta bancaria para pagos', 'en_US' => 'Bank account number for payments'],
+    'Número do banco para pagamentos' => ['es_ES' => 'Número del banco para pagos', 'en_US' => 'Bank number for payments'],
+    'O email privado é obrigatório.' => ['es_ES' => 'El email privado es obligatorio.', 'en_US' => 'Private email is required.'],
+    'O valor deve ser uma URL válida do Spotify ou um identificador válido.' => ['es_ES' => 'El valor debe ser una URL válida de Spotify o un identificador válido.', 'en_US' => 'The value must be a valid Spotify URL or a valid identifier.'],
+    'O valor deve ser uma URL válida ou o nome ou id do usuário.' => ['es_ES' => 'El valor debe ser una URL válida o el nombre o id del usuario.', 'en_US' => 'The value must be a valid URL or the user\'s name or id.'],
+    'Pansexual' => ['es_ES' => 'Pansexual', 'en_US' => 'Pansexual'],
+    'Pessoa Surda, ensurdecida ou com deficiência auditiva' => ['es_ES' => 'Persona Sorda, ensordecida o con discapacidad auditiva', 'en_US' => 'Deaf, deafened, or hearing-impaired person'],
+    'Pessoa Surdocega' => ['es_ES' => 'Persona Sordociega', 'en_US' => 'Deafblind person'],
+    'Pessoa com Deficiência Física' => ['es_ES' => 'Persona con Discapacidad Física', 'en_US' => 'Person with Physical Disability'],
+    'Pessoa com Deficiência Intelectual' => ['es_ES' => 'Persona con Discapacidad Intelectual', 'en_US' => 'Person with Intellectual Disability'],
+    'Pessoa com Deficiência Visual (cega ou com baixa visão)' => ['es_ES' => 'Persona con Discapacidad Visual (ciega o con baja visión)', 'en_US' => 'Person with Visual Disability (blind or low vision)'],
+    'Pessoa com Neurodiversidade/Autismo' => ['es_ES' => 'Persona con Neurodivergencia/Autismo', 'en_US' => 'Person with Neurodivergence/Autism'],
+    'Polissexual' => ['es_ES' => 'Polisexual', 'en_US' => 'Polysexual'],
+    'Pomeranos' => ['es_ES' => 'Pomeranos', 'en_US' => 'Pomeranians'],
+    'Povos de quilombola' => ['es_ES' => 'Pueblos quilombolas', 'en_US' => 'Quilombola peoples'],
+    'Povos de terreiro' => ['es_ES' => 'Pueblos de terreiro', 'en_US' => 'Terreiro peoples'],
+    'Povos indígenas/originários' => ['es_ES' => 'Pueblos indígenas/originarios', 'en_US' => 'Indigenous/native peoples'],
+    'Pós-graduação' => ['es_ES' => 'Posgrado', 'en_US' => 'Postgraduate'],
+    'Sem formação' => ['es_ES' => 'Sin formación', 'en_US' => 'No formal education'],
+    'Seu nome completo ou jurídico deve ser informado.' => ['es_ES' => 'Debe informar su nombre completo o razón social.', 'en_US' => 'Your full name or legal name must be provided.'],
+    'Superior Completo' => ['es_ES' => 'Educación Superior Completa', 'en_US' => 'Higher Education Completed'],
+    'Superior Incompleto' => ['es_ES' => 'Educación Superior Incompleta', 'en_US' => 'Higher Education Incomplete'],
+    'Tipo da conta bancária para pagamentos' => ['es_ES' => 'Tipo de cuenta bancaria para pagos', 'en_US' => 'Bank account type for payments'],
+    'Travesti' => ['es_ES' => 'Travesti', 'en_US' => 'Travesti'],
+    'URL ou identificador do Spotify' => ['es_ES' => 'URL o identificador de Spotify', 'en_US' => 'Spotify URL or identifier'],
+];
+$__mtr_lcode = \MapasCulturais\i::get_locale();
+$__mtr = function (string $pt) use ($__missing_i18n, $__mtr_lcode) {
+    return $__missing_i18n[$pt][$__mtr_lcode] ?? $pt;
+};
+
 use MapasCulturais\Entities\Agent;
 use MapasCulturais\Utils;
 
@@ -10,9 +68,9 @@ return array(
     'metadata' => array(
         'nomeCompleto' => array(
             'private' => true,
-            'label' => \MapasCulturais\i::__('Nome completo ou Razão Social'),
+            'label' => $__mtr('Nome completo ou Razão Social'),
             'validations' => array(
-                //'required' => \MapasCulturais\i::__('Seu nome completo ou jurídico deve ser informado.')
+                //'required' => $__mtr('Seu nome completo ou jurídico deve ser informado.')
             ),
             'available_for_opportunities' => true
         ),
@@ -28,15 +86,15 @@ return array(
             'label' => \MapasCulturais\i::__('Escolaridade'),
             'type' => 'select',
             'options' => array(
-               'Não Informar' => MapasCulturais\i::__('Não Informar'),
-                MapasCulturais\i::__('Fundamental Incompleto'),
-                MapasCulturais\i::__('Fundamental Completo'),
-                MapasCulturais\i::__('Médio Incompleto'),
-                MapasCulturais\i::__('Médio Completo'),
-                MapasCulturais\i::__('Superior Completo'),
-                MapasCulturais\i::__('Superior Incompleto'),
-                MapasCulturais\i::__('Pós-graduação'),
-                MapasCulturais\i::__('Sem formação'),
+               'Não Informar' => $__mtr('Não Informar'),
+                $__mtr('Fundamental Incompleto'),
+                $__mtr('Fundamental Completo'),
+                $__mtr('Médio Incompleto'),
+                $__mtr('Médio Completo'),
+                $__mtr('Superior Completo'),
+                $__mtr('Superior Incompleto'),
+                $__mtr('Pós-graduação'),
+                $__mtr('Sem formação'),
             ),
             'available_for_opportunities' => true,
         ),
@@ -45,13 +103,13 @@ return array(
             'label' => \MapasCulturais\i::__('Pessoa com deficiência'),
             'type' => 'multiselect',
             'options' => [
-                MapasCulturais\i::__('Não sou Pessoa com Deficiência'),
-                MapasCulturais\i::__('Pessoa com Deficiência Física'),
-                MapasCulturais\i::__('Pessoa com Deficiência Visual (cega ou com baixa visão)'),
-                MapasCulturais\i::__('Pessoa Surda, ensurdecida ou com deficiência auditiva'),
-                MapasCulturais\i::__('Pessoa com Deficiência Intelectual'),
-                MapasCulturais\i::__('Pessoa com Neurodiversidade/Autismo'),
-                MapasCulturais\i::__('Pessoa Surdocega'),
+                $__mtr('Não sou Pessoa com Deficiência'),
+                $__mtr('Pessoa com Deficiência Física'),
+                $__mtr('Pessoa com Deficiência Visual (cega ou com baixa visão)'),
+                $__mtr('Pessoa Surda, ensurdecida ou com deficiência auditiva'),
+                $__mtr('Pessoa com Deficiência Intelectual'),
+                $__mtr('Pessoa com Neurodiversidade/Autismo'),
+                $__mtr('Pessoa Surdocega'),
                 MapasCulturais\i::__('Outra'),
             ],
             'available_for_opportunities' => true
@@ -63,15 +121,15 @@ return array(
             'type' => 'select',
             'options' => array(
                 'Não pertenço' => \MapasCulturais\i::__('Não pertenço'),
-                MapasCulturais\i::__('Comunidade extrativista'),
-                MapasCulturais\i::__('Comunidade ribeirinha'),
-                MapasCulturais\i::__('Comunidade rural'),
-                MapasCulturais\i::__('Povos indígenas/originários'),
-                MapasCulturais\i::__('Comunidades de pescadores(as) artesanais'),
+                $__mtr('Comunidade extrativista'),
+                $__mtr('Comunidade ribeirinha'),
+                $__mtr('Comunidade rural'),
+                $__mtr('Povos indígenas/originários'),
+                $__mtr('Comunidades de pescadores(as) artesanais'),
                 MapasCulturais\i::__('Povos ciganos'),
-                MapasCulturais\i::__('Povos de terreiro'),
-                MapasCulturais\i::__('Povos de quilombola'),
-                MapasCulturais\i::__('Pomeranos'),
+                $__mtr('Povos de terreiro'),
+                $__mtr('Povos de quilombola'),
+                $__mtr('Pomeranos'),
             ),
             'available_for_opportunities' => true
         ),
@@ -271,7 +329,7 @@ return array(
                 'Preta' => \MapasCulturais\i::__('Preta'),
                 'Amarela' => \MapasCulturais\i::__('Amarela'),
                 'Parda' => \MapasCulturais\i::__('Parda'),
-                'Marrom' => \MapasCulturais\i::__('Marrom'),
+                'Marrom' => $__mtr('Marrom'),
                 'Indígena' => \MapasCulturais\i::__('Indígena'),
                 'Prefiro não declarar' => \MapasCulturais\i::__('Prefiro não declarar'),
             ),
@@ -321,7 +379,7 @@ return array(
             'label' => \MapasCulturais\i::__('Localização'),
             'type' => 'select',
             'options' => array(
-                'Não Informar' => \MapasCulturais\i::__('Não Informar'),
+                'Não Informar' => $__mtr('Não Informar'),
                 'Pública' => \MapasCulturais\i::__('Pública'),
                 'Privada' => \MapasCulturais\i::__('Privada')
             )
@@ -332,15 +390,15 @@ return array(
             'label' => \MapasCulturais\i::__('Identidade de Gênero'),
             'type' => 'select',
             'options' => array(
-                'Mulher Cis' => \MapasCulturais\i::__('Mulher Cis'),
-                'Mulher Trans ' => \MapasCulturais\i::__('Mulher Trans '),
-                'Homem Cis' => \MapasCulturais\i::__('Homem Cis'),
-                'Homem Trans' => \MapasCulturais\i::__('Homem Trans'),
-                'Travesti' => \MapasCulturais\i::__('Travesti'),
-                'Intersexual' => \MapasCulturais\i::__('Intersexual'),
-                'Não-binário' => \MapasCulturais\i::__('Não-binário'),
-                'Fluido' => \MapasCulturais\i::__('Fluido'),
-                'Agênero' => \MapasCulturais\i::__('Agênero'),
+                'Mulher Cis' => $__mtr('Mulher Cis'),
+                'Mulher Trans ' => $__mtr('Mulher Trans '),
+                'Homem Cis' => $__mtr('Homem Cis'),
+                'Homem Trans' => $__mtr('Homem Trans'),
+                'Travesti' => $__mtr('Travesti'),
+                'Intersexual' => $__mtr('Intersexual'),
+                'Não-binário' => $__mtr('Não-binário'),
+                'Fluido' => $__mtr('Fluido'),
+                'Agênero' => $__mtr('Agênero'),
                 'Prefiro não declarar' => \MapasCulturais\i::__('Prefiro não declarar'),
                 'Feminina' => \MapasCulturais\i::__('Feminina'),
                 'Masculina' => \MapasCulturais\i::__('Masculina'),
@@ -383,10 +441,10 @@ return array(
             'type' => 'select',
             'options' => array(
                 'Heterossexual' => \MapasCulturais\i::__('Heterossexual'),
-                'Homossexual' => \MapasCulturais\i::__('Homossexual'),
+                'Homossexual' => $__mtr('Homossexual'),
                 'Bissexual' => \MapasCulturais\i::__('Bissexual'),
-                'Pansexual' => \MapasCulturais\i::__('Pansexual'),
-                'Polissexual' => \MapasCulturais\i::__('Polissexual'),
+                'Pansexual' => $__mtr('Pansexual'),
+                'Polissexual' => $__mtr('Polissexual'),
                 'Assexual' => \MapasCulturais\i::__('Assexual'),
                 'Prefiro não declarar' => \MapasCulturais\i::__('Prefiro não declarar'),
                 'Outros' => \MapasCulturais\i::__('Outros'),
@@ -417,7 +475,7 @@ return array(
             'private' => true,
             'label' => \MapasCulturais\i::__('Email Privado'),
             'validations' => array(
-                //'required' => \MapasCulturais\i::__('O email privado é obrigatório.'),
+                //'required' => $__mtr('O email privado é obrigatório.'),
                 'v::email()' => \MapasCulturais\i::__('O endereço informado não é um email válido.')
             ),
             'available_for_opportunities' => true,
@@ -594,7 +652,7 @@ return array(
                 return Utils::parseSocialMediaUser('facebook.com', $value);
             },
             'validations' => array(
-                "v::oneOf(v::urlDomain('facebook.com'), v::regex('/^@?([-\w\d\.]+)$/i'))" => \MapasCulturais\i::__("O valor deve ser uma URL válida ou o nome ou id do usuário.")
+                "v::oneOf(v::urlDomain('facebook.com'), v::regex('/^@?([-\w\d\.]+)$/i'))" => $__mtr("O valor deve ser uma URL válida ou o nome ou id do usuário.")
             ),
             'placeholder' => \MapasCulturais\i::__('nomedousuario ou iddousuario'),
             'available_for_opportunities' => true
@@ -655,12 +713,12 @@ return array(
             'type' => "socialMedia",
             'label' => \MapasCulturais\i::__('Spotify'),
             'validations' => array(
-                "v::oneOf(v::urlDomain('open.spotify.com'), v::regex('/^([a-zA-Z0-9]+|(user|artist|playlist|show|album|track):[a-zA-Z0-9]+)$/i'))" => \MapasCulturais\i::__("O valor deve ser uma URL válida do Spotify ou um identificador válido.")
+                "v::oneOf(v::urlDomain('open.spotify.com'), v::regex('/^([a-zA-Z0-9]+|(user|artist|playlist|show|album|track):[a-zA-Z0-9]+)$/i'))" => $__mtr("O valor deve ser uma URL válida do Spotify ou um identificador válido.")
             ),
             'serialize' => function($value) {
                 return Utils::parseSocialMediaUser('open.spotify.com', $value);
             },
-            'placeholder' => \MapasCulturais\i::__('URL ou identificador do Spotify'),
+            'placeholder' => $__mtr('URL ou identificador do Spotify'),
             'available_for_opportunities' => true
         ),
         'youtube' => array(
@@ -702,28 +760,28 @@ return array(
         // DADOS BANCÁRIOS
         'payment_bank_account_type' => array(
             'private' => true,
-            'label' => \MapasCulturais\i::__('Tipo da conta bancária para pagamentos'),
+            'label' => $__mtr('Tipo da conta bancária para pagamentos'),
             'type' => 'select',
             'options' => array(
-                '1' => \MapasCulturais\i::__('Conta corrente'),
-                '2' => \MapasCulturais\i::__('Conta Poupança'),
+                '1' => $__mtr('Conta corrente'),
+                '2' => $__mtr('Conta Poupança'),
             ),
         ),
         'payment_bank_account_number' => array(
             'private' => true,
-            'label' => \MapasCulturais\i::__('Número da conta bancária para pagamentos'),
+            'label' => $__mtr('Número da conta bancária para pagamentos'),
             'type' => 'text',
             'dafault' => '[]',
         ),
         'payment_bank_branch' => array(
             'private' => true,
-            'label' => \MapasCulturais\i::__('Agência bancária para pagamentos'),
+            'label' => $__mtr('Agência bancária para pagamentos'),
             'type' => 'text',
             'dafault' => '[]',
         ),
         'payment_bank_number' => array(
             'private' => true,
-            'label' => \MapasCulturais\i::__('Número do banco para pagamentos'),
+            'label' => $__mtr('Número do banco para pagamentos'),
             'type' => 'select',
             'options' => array(
                 '1' => \MapasCulturais\i::__("Banco Do Brasil S.A (BB) - 1"),
@@ -944,13 +1002,13 @@ return array(
         ),
         'payment_bank_dv_branch' => array(
             'private' => true,
-            'label' => \MapasCulturais\i::__('Dígito verificador da agéncia bancária'),
+            'label' => $__mtr('Dígito verificador da agéncia bancária'),
             'type' => 'text',
             'dafault' => '[]',
         ),
         'payment_bank_dv_account_number' => array(
             'private' => true,
-            'label' => \MapasCulturais\i::__('Dígito verificador da conta bancária'),
+            'label' => $__mtr('Dígito verificador da conta bancária'),
             'type' => 'text',
             'dafault' => '[]',
         ),
