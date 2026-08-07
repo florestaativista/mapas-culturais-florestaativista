@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FlorestaAtivista theme\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+
+msgid "Deseja inserir uma ocorrência para o seu Evento?"
+msgstr "¿Desea insertar una ocurrencia para su Agenda?"
+
+msgid "seu novo evento"
+msgstr "su nueva agenda"
+
+msgid "do evento"
+msgstr "de la agenda"
+
+msgid "do seu evento"
+msgstr "de su agenda"
+
+msgid "sobre o evento"
+msgstr "sobre la agenda"
+
+msgid "Adicione uma Descrição curta para o Evento"
+msgstr "Agregue una Descripción corta para la Agenda"
+
+msgid "agentes"
+msgstr "Perfiles"
+
+msgid "agente"
+msgstr "Perfil"
+
+msgid "Meus Eventos"
+msgstr "Mis Agendas"
+
+msgid "eventos"
+msgstr "Agendas"
+
+msgid "evento"
+msgstr "Agenda"
+
+msgid "Meus agendas"
+msgstr "Mis agendas"
+
+msgid "seus agendas"
+msgstr "sus agendas"
+
+msgid "vinculado ao agenda"
+msgstr "vinculado a la agenda"
+
+msgid "Informações públicas do Agenda"
+msgstr "Información pública de la Agenda"
+
+msgid "Este é um espaço para você apresentar melhor o seu Agenda. Adicione documentos, links, vídeos e imagens."
+msgstr "Este es un espacio para que usted presente mejor su Agenda. Agregue documentos, enlaces, videos e imágenes."
+
+msgid "Inserir ocorrência no agenda"
+msgstr "Insertar ocurrencia en la agenda"
+
+msgid "Vincular um espaço para o agenda"
+msgstr "Vincular un espacio para la agenda"
+
+msgid "Quando o agenda ocorrerá"
+msgstr "Cuándo ocurrirá la agenda"
+
+msgid "O agenda"
+msgstr "La agenda"
+
+msgid "Pessoa portadora de deficiência"
+msgstr "Persona con discapacidad"
+
+msgid "Olá, você está na Floresta Ativista!"
+msgstr "¡Hola, usted está en Floresta Ativista!"
+
+msgid "A Floresta Ativista é uma plataforma que reúne um ecossistema ativista de coletivos, redes, iniciativas e pessoas com vontade de construir e estar em comunidades. Um lugar onde os mais diferentes temas, lutas e causas se encontram e se misturam. Um terreno fértil de onde brotam agendas comuns e projetos que fortalecem as principais LUTAS CIVILIZATÓRIAS da nossa geração. É a partir daqui que iremos mapear projetos e semear conexões em todo país."
+msgstr "Floresta Ativista es una plataforma que reúne un ecosistema activista de colectivos, redes, iniciativas y personas con voluntad de construir y estar en comunidades. Un lugar donde los más diferentes temas, luchas y causas se encuentran y se mezclan. Un terreno fértil de donde brotan agendas comunes y proyectos que fortalecen las principales LUCHAS CIVILIZATORIAS de nuestra generación. Es a partir de aquí que vamos a mapear proyectos y sembrar conexiones en todo el país."
+
+msgid "Cadastre-se, participe de editais e oportunidades e concorra aos benefícios."
+msgstr "Regístrese, participe en convocatorias y oportunidades y compita por los beneficios."
+
+msgid "É aqui que você pode acessar as inúmeras possibilidades de conexão com a Floresta Ativista. Confira todas atividades com inscrição, como oficinas, aulões, editais, convocatórias, eventos e demais oportunidades abertas em nosso sistema. Você também pode criar o seu próprio formulário e divulgar sua oportunidade para outros agentes da floresta."
+msgstr "Aquí es donde puede acceder a las innumerables posibilidades de conexión con Floresta Ativista. Consulte todas las actividades con inscripción, como talleres, clases magistrales, convocatorias, eventos y demás oportunidades abiertas en nuestro sistema. También puede crear su propio formulario y difundir su oportunidad para otros perfiles de la floresta."
+
+msgid "Quer saber quais os eventos culturais e agendas ativistas que estão ocorrendo em sua região? Basta fazer uma pesquisa a partir das ferramentas de busca. Além disso, como usuário cadastrado, você pode incluir seus eventos e agendas na plataforma e divulgá-los gratuitamente!"
+msgstr "¿Quiere saber qué eventos culturales y agendas activistas están ocurriendo en su región? Solo tiene que hacer una búsqueda con las herramientas de búsqueda. Además, como usuario registrado, ¡puede incluir sus eventos y agendas en la plataforma y difundirlos gratuitamente!"
+
+msgid "Você pode procurar por espaços e empreendimentos culturais e ativistas incluídos na plataforma a partir dos campos de busca combinada que ajudam na precisão de sua pesquisa. Cadastre também os espaços onde desenvolve suas atividades."
+msgstr "Puede buscar espacios y emprendimientos culturales y activistas incluidos en la plataforma a partir de los campos de búsqueda combinada que ayudan a precisar su búsqueda. Registre también los espacios donde desarrolla sus actividades."
+
+msgid "Aqui você pode encontrar pessoas com interesse e atuação nas áreas de arte, cultura, comunicação e ativismos. É uma rede de pessoas envolvidas na cena cultural e ativista da sua região. Você também pode realizar o seu cadastro, bem como de seus coletivos, bandas, instituições e empresas das quais faça parte."
+msgstr "Aquí puede encontrar personas con interés y actuación en las áreas de arte, cultura, comunicación y activismos. Es una red de personas involucradas en la escena cultural y activista de su región. También puede realizar su registro, así como el de sus colectivos, bandas, instituciones y empresas de las que forme parte."
+
+msgid "Este é o local onde você pode encontrar leis de fomento, mostras, convocatórias e editais criados, além de diversas iniciativas cadastradas pelos usuários da plataforma."
+msgstr "Este es el lugar donde puede encontrar leyes de fomento, muestras, convocatorias y editales creados, además de diversas iniciativas registradas por los usuarios de la plataforma."
+
+msgid "Confira os últimos destaques de cada uma das áreas."
+msgstr "Consulte las últimas novedades destacadas de cada una de las áreas."
+
+msgid "Crie sua conta e apareça no mapa!"
+msgstr "¡Cree su cuenta y aparezca en el mapa!"
+
+msgid "Colabore com a ferramenta livre, colaborativa e interativa do cenário cultural e ativista"
+msgstr "Colabore con la herramienta libre, colaborativa e interactiva de la escena cultural y activista"
+
+msgid "A Floresta Ativista é um software livre criado na parceria entre a hacklab/, o Fora do Eixo, a Mídia NINJA, a Rede Livre e coletivos que investem na plataforma. Você pode contribuir para o seu desenvolvimento através do GitHub."
+msgstr "Floresta Ativista es un software libre creado en la alianza entre hacklab/, Fora do Eixo, Mídia NINJA, Rede Livre y colectivos que invierten en la plataforma. Usted puede contribuir a su desarrollo a través de GitHub."
+
+msgid "Os agentes, os espaços e os eventos cadastrados contam com a geolocalização de seus endereços, encontre-os aqui:"
+msgstr "Los perfiles, los espacios y los eventos registrados cuentan con la geolocalización de sus direcciones, encuéntrelos aquí:"
+

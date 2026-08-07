@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FlorestaAtivista theme\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_US\n"
+
+msgid "Deseja inserir uma ocorrência para o seu Evento?"
+msgstr "Do you want to insert an occurrence for your Agenda?"
+
+msgid "seu novo evento"
+msgstr "your new agenda"
+
+msgid "do evento"
+msgstr "of the agenda"
+
+msgid "do seu evento"
+msgstr "of your agenda"
+
+msgid "sobre o evento"
+msgstr "about the agenda"
+
+msgid "Adicione uma Descrição curta para o Evento"
+msgstr "Add a short Description for the Agenda"
+
+msgid "agentes"
+msgstr "Profiles"
+
+msgid "agente"
+msgstr "Profile"
+
+msgid "Meus Eventos"
+msgstr "My Agendas"
+
+msgid "eventos"
+msgstr "Agendas"
+
+msgid "evento"
+msgstr "Agenda"
+
+msgid "Meus agendas"
+msgstr "My agendas"
+
+msgid "seus agendas"
+msgstr "your agendas"
+
+msgid "vinculado ao agenda"
+msgstr "linked to the agenda"
+
+msgid "Informações públicas do Agenda"
+msgstr "Public information of the Agenda"
+
+msgid "Este é um espaço para você apresentar melhor o seu Agenda. Adicione documentos, links, vídeos e imagens."
+msgstr "This is a space for you to better present your Agenda. Add documents, links, videos and images."
+
+msgid "Inserir ocorrência no agenda"
+msgstr "Insert occurrence in the agenda"
+
+msgid "Vincular um espaço para o agenda"
+msgstr "Link a space to the agenda"
+
+msgid "Quando o agenda ocorrerá"
+msgstr "When the agenda will occur"
+
+msgid "O agenda"
+msgstr "The agenda"
+
+msgid "Pessoa portadora de deficiência"
+msgstr "Person with disability"
+
+msgid "Olá, você está na Floresta Ativista!"
+msgstr "Hello, you are on Floresta Ativista!"
+
+msgid "A Floresta Ativista é uma plataforma que reúne um ecossistema ativista de coletivos, redes, iniciativas e pessoas com vontade de construir e estar em comunidades. Um lugar onde os mais diferentes temas, lutas e causas se encontram e se misturam. Um terreno fértil de onde brotam agendas comuns e projetos que fortalecem as principais LUTAS CIVILIZATÓRIAS da nossa geração. É a partir daqui que iremos mapear projetos e semear conexões em todo país."
+msgstr "Floresta Ativista is a platform that brings together an activist ecosystem of collectives, networks, initiatives and people willing to build and be part of communities. A place where the most different themes, struggles and causes meet and mix. A fertile ground from which common agendas and projects sprout, strengthening the main CIVILIZATIONAL STRUGGLES of our generation. It is from here that we will map projects and sow connections throughout the country."
+
+msgid "Cadastre-se, participe de editais e oportunidades e concorra aos benefícios."
+msgstr "Sign up, take part in calls for proposals and opportunities, and compete for benefits."
+
+msgid "É aqui que você pode acessar as inúmeras possibilidades de conexão com a Floresta Ativista. Confira todas atividades com inscrição, como oficinas, aulões, editais, convocatórias, eventos e demais oportunidades abertas em nosso sistema. Você também pode criar o seu próprio formulário e divulgar sua oportunidade para outros agentes da floresta."
+msgstr "This is where you can access the countless possibilities for connecting with Floresta Ativista. Check out all activities with registration, such as workshops, masterclasses, calls for proposals, events and other opportunities open in our system. You can also create your own form and publicize your opportunity to other profiles of the floresta."
+
+msgid "Quer saber quais os eventos culturais e agendas ativistas que estão ocorrendo em sua região? Basta fazer uma pesquisa a partir das ferramentas de busca. Além disso, como usuário cadastrado, você pode incluir seus eventos e agendas na plataforma e divulgá-los gratuitamente!"
+msgstr "Want to know which cultural events and activist agendas are happening in your region? Just search using the search tools. Also, as a registered user, you can add your events and agendas to the platform and promote them for free!"
+
+msgid "Você pode procurar por espaços e empreendimentos culturais e ativistas incluídos na plataforma a partir dos campos de busca combinada que ajudam na precisão de sua pesquisa. Cadastre também os espaços onde desenvolve suas atividades."
+msgstr "You can search for cultural and activist spaces and ventures included on the platform using the combined search fields that help refine your search. You can also register the spaces where you carry out your activities."
+
+msgid "Aqui você pode encontrar pessoas com interesse e atuação nas áreas de arte, cultura, comunicação e ativismos. É uma rede de pessoas envolvidas na cena cultural e ativista da sua região. Você também pode realizar o seu cadastro, bem como de seus coletivos, bandas, instituições e empresas das quais faça parte."
+msgstr "Here you can find people with interest and involvement in the areas of art, culture, communication and activism. It is a network of people involved in the cultural and activist scene of your region. You can also register yourself, as well as your collectives, bands, institutions and companies you are part of."
+
+msgid "Este é o local onde você pode encontrar leis de fomento, mostras, convocatórias e editais criados, além de diversas iniciativas cadastradas pelos usuários da plataforma."
+msgstr "This is the place where you can find funding laws, exhibitions, calls for proposals and open notices, as well as various initiatives registered by platform users."
+
+msgid "Confira os últimos destaques de cada uma das áreas."
+msgstr "Check out the latest highlights from each area."
+
+msgid "Crie sua conta e apareça no mapa!"
+msgstr "Create your account and show up on the map!"
+
+msgid "Colabore com a ferramenta livre, colaborativa e interativa do cenário cultural e ativista"
+msgstr "Collaborate with the free, collaborative and interactive tool for the cultural and activist scene"
+
+msgid "A Floresta Ativista é um software livre criado na parceria entre a hacklab/, o Fora do Eixo, a Mídia NINJA, a Rede Livre e coletivos que investem na plataforma. Você pode contribuir para o seu desenvolvimento através do GitHub."
+msgstr "Floresta Ativista is free software created in partnership between hacklab/, Fora do Eixo, Mídia NINJA, Rede Livre and collectives that invest in the platform. You can contribute to its development via GitHub."
+
+msgid "Os agentes, os espaços e os eventos cadastrados contam com a geolocalização de seus endereços, encontre-os aqui:"
+msgstr "The profiles, spaces and events registered have the geolocation of their addresses, find them here:"
+

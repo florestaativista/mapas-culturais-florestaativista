@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FlorestaAtivista theme\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+
+msgid "Deseja inserir uma ocorrência para o seu Evento?"
+msgstr "Deseja inserir uma ocorrência para a sua Agenda?"
+
+msgid "seu novo evento"
+msgstr "sua nova agenda"
+
+msgid "do evento"
+msgstr "da agenda"
+
+msgid "do seu evento"
+msgstr "da sua agenda"
+
+msgid "sobre o evento"
+msgstr "sobre a agenda"
+
+msgid "Adicione uma Descrição curta para o Evento"
+msgstr "Adicione uma Descrição curta para a Agenda"
+
+msgid "agentes"
+msgstr "Perfis"
+
+msgid "agente"
+msgstr "Perfil"
+
+msgid "Meus Eventos"
+msgstr "Minhas Agendas"
+
+msgid "eventos"
+msgstr "Agendas"
+
+msgid "evento"
+msgstr "Agenda"
+
+msgid "Meus agendas"
+msgstr "Minhas agendas"
+
+msgid "seus agendas"
+msgstr "suas agendas"
+
+msgid "vinculado ao agenda"
+msgstr "vinculado a agenda"
+
+msgid "Informações públicas do Agenda"
+msgstr "Informações públicas da Agenda"
+
+msgid "Este é um espaço para você apresentar melhor o seu Agenda. Adicione documentos, links, vídeos e imagens."
+msgstr "Este é um espaço para você apresentar melhor a sua Agenda. Adicione documentos, links, vídeos e imagens."
+
+msgid "Inserir ocorrência no agenda"
+msgstr "Inserir ocorrência na agenda"
+
+msgid "Vincular um espaço para o agenda"
+msgstr "Vincular um espaço para a agenda"
+
+msgid "Quando o agenda ocorrerá"
+msgstr "Quando a agenda ocorrerá"
+
+msgid "O agenda"
+msgstr "A agenda"
+
+msgid "Pessoa portadora de deficiência"
+msgstr "Pessoa com deficiência"
+
