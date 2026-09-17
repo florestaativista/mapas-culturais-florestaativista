@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 FROM hacklab/mapasculturais:7.8.5
+=======
+FROM hacklab/mapasculturais:7.8.13
+>>>>>>> master
 
 COPY themes /var/www/src/themes
 COPY plugins /var/www/src/plugins
