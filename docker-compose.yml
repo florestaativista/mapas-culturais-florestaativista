@@ -49,6 +49,9 @@ services:
     environment:
       - REDIS_CACHE=redis
       - SESSIONS_SAVE_PATH=tcp://sessions:6379
+      # ConectaEnte: live fala com o CultBR (default do plugin é dev/simulado)
+      - CONECTAENTE_MODE=live
+      - CONECTAENTE_HOST=https://ente.conecta.cultbr.cultura.gov.br
 
     depends_on:
       - db

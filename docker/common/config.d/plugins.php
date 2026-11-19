@@ -17,6 +17,7 @@ return [
         'SamplePlugin' => ['namespace' => 'SamplePlugin'],
         'SpamDetector',
         'ValuersManagement',
+        'ConectaEnte',
         'PluginSOM',
         //'LocationPatch'
         'Zammad' => [

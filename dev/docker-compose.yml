@@ -27,6 +27,9 @@ services:
       - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame
       - ../plugins/SpamDetector:/var/www/src/plugins/SpamDetector
       - ../plugins/PluginSOM:/var/www/src/plugins/PluginSOM
+      - ../plugins/ValuersManagement:/var/www/src/plugins/ValuersManagement
+      - ../plugins/AdminLoginAsUser:/var/www/src/plugins/AdminLoginAsUser
+      - ../plugins/ConectaEnte:/var/www/src/plugins/ConectaEnte
 
       - ../themes/SOM:/var/www/src/themes/SOM
       - ../themes/FlorestaAtivista:/var/www/src/themes/FlorestaAtivista
@@ -44,6 +47,10 @@ services:
       - REDIS_CACHE=redis
       - APP_MODE=development
       - BUILD_ASSETS=0
+
+      # ConectaEnte: live fala com o CultBR (default do plugin é dev/simulado)
+      - CONECTAENTE_MODE=live
+      - CONECTAENTE_HOST=https://ente.conecta.cultbr.cultura.gov.br
       - MAILER_TRANSPORT=smtp://mailhog:1025
       - MAILER_FROM=sysadmin@localhost
       - SESSIONS_SAVE_PATH=tcp://sessions:6379

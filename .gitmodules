@@ -28,3 +28,6 @@
 [submodule "plugins/ValuersManagement"]
 	path = plugins/ValuersManagement
 	url = https://github.com/mapasculturais/plugin-ValuersManagement.git
+[submodule "plugins/ConectaEnte"]
+	path = plugins/ConectaEnte
+	url = https://github.com/mapasculturais/plugin-ConectaEnte.git
